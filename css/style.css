@@ -26,12 +26,12 @@ ORANGE - #FD7B0C
 
 /*--------------FONTS APPLIED---------------*/
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 200px) {
 	h1, h3{
 		font-family: silkscreen;
 	}
 
-	h2, h4, p, .made-by, .creditos{
+	h2, h4, p, .made-by, .credit{
 		font-family: bilbao;
 	}
 
