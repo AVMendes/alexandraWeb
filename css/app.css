@@ -99,9 +99,14 @@
 
 /*------------------------------------------*/
 /*----------------GENERAL-------------------*/
+html {
+  height: 100%;
+}
+
 body {
   margin: 0px;
   width: 100%;
+  min-height: 100%;
   color: #121212;
 }
 
@@ -195,6 +200,9 @@ a {
     width: 140px;
     margin: auto;
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
