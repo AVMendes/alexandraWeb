@@ -310,8 +310,8 @@ a {
     padding: 40px;
     text-align: center;
     background-color: #ffffff;
-    border: 0px 0px 0px 5px solid;
-    border-image-source: linear-gradient(90deg, #9e18ae, #fd7b0c);
+    border-left: 5px solid;
+    border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -353,8 +353,8 @@ a {
     z-index: 1;
     padding: 30px;
     text-align: center;
-    border: 0px 5px 0px 0px solid;
-    border-image-source: linear-gradient(90deg, #9e18ae, #fd7b0c);
+    border-right: 5px solid;
+    border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
     display: -webkit-box;
     display: -ms-flexbox;
