@@ -3,6 +3,7 @@
     h1,
     h3 {
         font-family: silkscreen;
+        font-weight: normal;
     }
 
     h2,
@@ -11,6 +12,7 @@
     .made-by,
     .credit {
         font-family: bilbao;
+        font-weight: normal;
     }
 
     /*MENU AND PAGE SUBTITLE*/
@@ -81,8 +83,17 @@
 }
 /*------------------------------------------*/
 
+/*----------------GENERAL-------------------*/
+body {
+    margin: 0px;
+    width: 100vw;
+    color: #121212;
+}
+/*------------------------------------------*/
+
 /*----------------OVERRIDE------------------*/
 a {
     text-decoration: none;
+    color: $cBlack;
 }
 /*------------------------------------------*/
