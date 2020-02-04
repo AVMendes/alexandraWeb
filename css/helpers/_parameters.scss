@@ -1,0 +1,37 @@
+/*--------------MEDIA QUERIES---------------*/
+$mobile: 200px;
+$tablet: 600px;
+/*------------------------------------------*/
+
+
+/*------------------FONTS-------------------*/
+@font-face{
+	font-family: bilbao;
+	src: url(assets/fonts/Bilbao-Regular.ttf);
+}
+
+@font-face{
+	font-family: bilbao-button;
+	src: url(assets/fonts/Bilbao-SemiBolditalic.ttf);
+}
+
+@font-face{
+	font-family: silkscreen;
+	src: url(assets/fonts/Silkscreen.ttf);
+}
+/*------------------------------------------*/
+
+
+/*--------------MAIN COLORS-----------------*/
+$cWhite: #FFFFFF;
+$cBlack: #121212;
+$cPurple: #9E18AE;
+$cOrange: #FD7B0C;
+/*------------------------------------------*/
+
+
+/*----------------BORDERS-------------------*/
+$bSmall: 4px;
+$bLargeMobile: 5px;
+$bLargeWeb: 6px;
+/*------------------------------------------*/
