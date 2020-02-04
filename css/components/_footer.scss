@@ -1,62 +1,62 @@
 /*------------------FOOTER------------------*/
 @media only screen and (min-width: $mobile) {
-	footer{
-		width: 100%;
-		height: 125px;
+    footer {
+        width: 100%;
+        height: 125px;
 
-		display: flex;
-		flex-direction: column;
+        display: flex;
+        flex-direction: column;
 
-		.social{
-			width: 140px;
-			margin: auto;
-			margin-bottom: 20px;
+        .social {
+            width: 140px;
+            margin: auto;
+            margin-bottom: 20px;
 
-			justify-content: space-between;
+            justify-content: space-between;
 
-			img{
-				width: 25px;
-				height: auto;
-			}
-		}
+            img {
+                width: 25px;
+                height: auto;
+            }
+        }
 
-		.footer-info{
-			width: 100%;
-			height: auto;
+        .footer-info {
+            width: 100%;
+            height: auto;
 
-			.credit{
-				border-bottom: $bSmall $cBlack;
-			}
-		}
-	}
+            .credit {
+                border-bottom: $bSmall $cBlack;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: $tablet) {
-	footer{
-		height: 160px;
-		padding: 0px 130px 0px 130px;
+    footer {
+        height: 160px;
+        padding: 0px 130px 0px 130px;
 
-		flex-direction: row;
+        flex-direction: row;
 
-		.footer-info{
-			width: 70%;
-			height: 100%;
+        .footer-info {
+            width: 70%;
+            height: 100%;
 
-			order: 1;
-		}
+            order: 1;
+        }
 
-		.social{
-			width: 30%;
-			height: 100%;
-			padding-left: 100px;
-			padding-right: 100px;
+        .social {
+            width: 30%;
+            height: 100%;
+            padding-left: 100px;
+            padding-right: 100px;
 
-			order: 2;
+            order: 2;
 
-			img{
-				width: 45px;
-			}
-		}
-	}
+            img {
+                width: 45px;
+            }
+        }
+    }
 }
 /*------------------------------------------*/

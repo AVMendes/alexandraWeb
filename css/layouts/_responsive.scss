@@ -1,26 +1,26 @@
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: $mobile) {
-	.container{
-		width: 100%;
-		height: auto;
-		padding: 20px 50px 20px 50px;
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px 50px 20px 50px;
 
-		display: flex;
+        display: flex;
 
-		main{
-			width: 100%;
-			height: auto;
-		}
-	}
+        main {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 @media only screen and (min-width: $tablet) {
-	.container{
-		padding: 75px 265px 70px 130px;
+    .container {
+        padding: 75px 265px 70px 130px;
 
-		main{
-			margin-top: 60px;
-		}
-	}
+        main {
+            margin-top: 60px;
+        }
+    }
 }
 /*------------------------------------------*/

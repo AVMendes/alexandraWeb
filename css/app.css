@@ -2,22 +2,13 @@
    - Version:  1
    - Author:   @AVMendes
 */
-
-// HELPERS
 @use 'helpers/parameters';
-// @use 'helpers/functions';
-// @use 'helpers/mixins.button';
-
-// COMPONENTS
 @use 'components/buttons';
 @use 'components/cards';
 @use 'components/footer';
 @use 'components/headerNav';
-
-// PAGES
 @use 'pages/about';
 @use 'pages/contact';
 @use 'pages/work';
-
-// LAYOUT
 @use 'layout/responsive';
+/*# sourceMappingURL=app.css.map */
