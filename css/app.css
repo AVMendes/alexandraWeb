@@ -284,13 +284,12 @@ a {
   .mobile-header .name {
     width: auto;
     height: auto;
-    margin: auto;
-    margin-right: 20vw;
   }
   .mobile-header .menu-placeholder {
     width: 20px;
     height: 20px;
     margin-right: 25px;
+    margin-left: 4vw;
   }
   .mobile-header .menu {
     position: fixed;
@@ -344,7 +343,7 @@ a {
   .web-menu {
     display: block;
     position: fixed;
-    width: 200px;
+    width: 175px;
     height: 100%;
     top: 0;
     left: 0;
