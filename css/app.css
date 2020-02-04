@@ -442,7 +442,7 @@ a {
 @media only screen and (min-width: 850px) {
   .container {
     margin-left: 175px;
-    padding: 75px 10vw 20px 30px;
+    padding: 75px 10vw 20px 50px;
   }
   .container main {
     margin-top: 60px;
