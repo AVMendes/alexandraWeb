@@ -72,11 +72,11 @@
 @media only screen and (min-width: 600px) {
   /*MENU AND PAGE SUBTITLE*/
   h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   /*NAME*/
   h2 {
-    font-size: 22px;
+    font-size: 16px;
   }
   /*PROJECT NAME*/
   h3 {
@@ -327,12 +327,12 @@ a {
   .web-menu {
     display: block;
     position: fixed;
-    width: 250px;
+    width: 200px;
     height: 100%;
     top: 0;
     left: 0;
     z-index: 1;
-    padding: 60px;
+    padding: 30px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -346,9 +346,8 @@ a {
             flex-direction: column;
   }
   .web-menu .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
-    margin-top: 15px;
   }
   .web-menu .logo img {
     width: 120px;
@@ -357,16 +356,10 @@ a {
   .web-menu .name {
     width: 120px;
     height: auto;
-    margin-top: 15px;
-  }
-  .web-menu .pages {
-    margin-top: 60px;
-  }
-  .web-menu .pages a {
-    margin-top: 60px;
   }
   .web-menu .pages a h1 {
-    text-orientation: upright;
+    margin-top: 20px;
+    line-height: 24px;
   }
 }
 

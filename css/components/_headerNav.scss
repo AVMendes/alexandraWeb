@@ -80,12 +80,12 @@
     .web-menu {
         display: block;
         position: fixed;
-        width: 250px;
+        width: 200px;
         height: 100%;
         top: 0;
         left: 0;
         z-index: 1;
-        padding: 60px;
+        padding: 30px;
         text-align: center;
 
         display: flex;
@@ -93,9 +93,9 @@
         flex-direction: column;
 
         .logo {
-            width: 120px;
+            width: 100px;
             height: auto;
-            margin-top: 15px;
+            // margin-top: 15px;
 
             img {
                 width: 120px;
@@ -106,17 +106,16 @@
         .name {
             width: 120px;
             height: auto;
-            margin-top: 15px;
+            // margin-top: 15px;
         }
 
         .pages {
-            margin-top: 60px;
+            // margin-top: 60px;
 
             a {
-                margin-top: 60px;
-
                 h1 {
-                    text-orientation: upright;
+                    margin-top: 20px;
+                    line-height: 24px;
                 }
             }
         }
