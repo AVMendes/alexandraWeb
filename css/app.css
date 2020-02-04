@@ -328,6 +328,10 @@ a {
     margin-top: 4vw;
   }
   .mobile-menu a h1 {
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     margin-top: 10px;
     line-height: 20px;
   }
@@ -386,6 +390,10 @@ a {
     margin-top: 50px;
   }
   .web-menu .pages a h1 {
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     margin-top: 30px;
     line-height: 22px;
   }

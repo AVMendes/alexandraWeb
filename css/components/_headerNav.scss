@@ -72,6 +72,10 @@
             margin-top: 4vw;
 
             h1 {
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: tb-lr;
+                writing-mode: vertical-lr;
+                text-orientation: upright;
                 margin-top: 10px;
                 line-height: 20px;
             }
@@ -137,6 +141,10 @@
                 margin-top: 50px;
 
                 h1 {
+                    -webkit-writing-mode: vertical-lr;
+                    -ms-writing-mode: tb-lr;
+                    writing-mode: vertical-lr;
+                    text-orientation: upright;
                     margin-top: 30px;
                     line-height: 22px;
                 }
