@@ -334,6 +334,9 @@ a {
   .web-menu {
     display: none;
   }
+  .current {
+    background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/currentTry.png);
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -412,7 +415,7 @@ a {
 
 @media only screen and (min-width: 800px) {
   .container {
-    margin-left: 200px;
+    margin-left: 175px;
     padding: 75px 10vw 20px 30px;
   }
   .container main {

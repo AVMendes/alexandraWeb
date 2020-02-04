@@ -81,6 +81,10 @@
     .web-menu {
         display: none;
     }
+
+    .current {
+        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/currentTry.png);
+    }
 }
 
 @media only screen and (min-width: $tablet) {
