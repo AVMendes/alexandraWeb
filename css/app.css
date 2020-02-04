@@ -72,7 +72,7 @@
 @media only screen and (min-width: 600px) {
   /*MENU AND PAGE SUBTITLE*/
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   /*NAME*/
   h2 {
@@ -350,7 +350,7 @@ a {
     height: auto;
   }
   .web-menu .logo img {
-    width: 120px;
+    width: 100px;
     height: auto;
   }
   .web-menu .name {
@@ -358,8 +358,8 @@ a {
     height: auto;
   }
   .web-menu .pages a h1 {
-    margin-top: 20px;
-    line-height: 24px;
+    margin-top: 30px;
+    line-height: 22px;
   }
 }
 
@@ -387,8 +387,8 @@ a {
 
 @media only screen and (min-width: 600px) {
   .container {
-    margin-left: 250px;
-    padding: 75px 265px 20px 130px;
+    margin-left: 200px;
+    padding: 75px 10vw 20px 30px;
   }
   .container main {
     margin-top: 60px;
