@@ -27,6 +27,12 @@
             margin-right: 20vw;
         }
 
+        .menu-placeholder {
+            width: 20px;
+            height: 20px;
+            margin-right: 25px;
+        }
+
         .menu {
             position: fixed;
             width: 20px;
@@ -53,13 +59,14 @@
         z-index: 1;
         padding: 40px;
         text-align: center;
+        background-color: $cWhite;
 
         display: flex;
         justify-content: center;
         flex-direction: column;
 
         a {
-            margin-top: 50px;
+            margin-top: 4vw;
 
             h1 {
                 margin-top: 10px;
