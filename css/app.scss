@@ -4,20 +4,20 @@
 */
 
 // HELPERS
-@use 'helpers/parameters';
-// @use 'helpers/functions';
-// @use 'helpers/mixins.button';
+@import "helpers/parameters";
+// @import 'helpers/functions';
+// @import 'helpers/mixins.button';
 
 // COMPONENTS
-@use 'components/buttons';
-@use 'components/cards';
-@use 'components/footer';
-@use 'components/headerNav';
+@import "components/buttons";
+@import "components/cards";
+@import "components/footer";
+@import "components/headerNav";
 
 // PAGES
-@use 'pages/about';
-@use 'pages/contact';
-@use 'pages/work';
+// @import "pages/about";
+// @import "pages/contact";
+// @import "pages/work";
 
 // LAYOUT
-@use 'layout/responsive';
+@import "layouts/responsive";
