@@ -40,15 +40,16 @@
         flex-direction: row;
 
         .footer-info {
-            width: 70%;
+            width: 60%;
             height: 100%;
 
             order: 1;
         }
 
         .social {
-            width: 30%;
+            width: 70%;
             height: 100%;
+            padding-left: 7vw;
 
             order: 2;
 

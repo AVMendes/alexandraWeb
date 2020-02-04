@@ -69,7 +69,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   /*MENU AND PAGE SUBTITLE*/
   h1 {
     font-size: 18px;
@@ -177,7 +177,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .card-img {
     width: 350px;
     height: 200px;
@@ -225,7 +225,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   footer {
     height: 100px;
     padding: 0px;
@@ -235,15 +235,16 @@ a {
             flex-direction: row;
   }
   footer .footer-info {
-    width: 70%;
+    width: 60%;
     height: 100%;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
   footer .social {
-    width: 30%;
+    width: 70%;
     height: 100%;
+    padding-left: 7vw;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -317,7 +318,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .mobile-header {
     display: none;
   }
@@ -385,7 +386,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .container {
     margin-left: 200px;
     padding: 75px 10vw 20px 30px;
