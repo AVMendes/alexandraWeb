@@ -313,6 +313,10 @@ a {
   .mobile-menu a {
     margin-top: 50px;
   }
+  .mobile-menu a h1 {
+    margin-top: 10px;
+    line-height: 20px;
+  }
   .web-menu {
     display: none;
   }
@@ -358,6 +362,9 @@ a {
     width: 120px;
     height: auto;
   }
+  .web-menu .pages a {
+    margin-top: 50px;
+  }
   .web-menu .pages a h1 {
     margin-top: 30px;
     line-height: 22px;
@@ -382,7 +389,7 @@ a {
   .container main {
     width: 100%;
     height: auto;
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 270px);
   }
 }
 
