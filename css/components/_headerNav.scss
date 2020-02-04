@@ -87,9 +87,20 @@
     }
 
     .current {
-        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/currentTry.png);
         background-size: cover;
         padding-top: 5px;
+    }
+
+    .current.work {
+        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_work.png);
+    }
+
+    .current.about {
+        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_about.png);
+    }
+
+    .current.contact {
+        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_contact.png);
     }
 }
 
