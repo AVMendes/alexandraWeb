@@ -395,7 +395,7 @@ a {
 @media only screen and (min-width: 600px) {
   .container {
     margin-left: 250px;
-    padding: 75px 265px 70px 130px;
+    padding: 75px 265px 20px 130px;
   }
   .container main {
     margin-top: 60px;
