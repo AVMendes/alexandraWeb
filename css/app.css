@@ -7,17 +7,17 @@
 /*------------------FONTS-------------------*/
 @font-face {
   font-family: bilbao;
-  src: url(assets/fonts/Bilbao-Regular.ttf);
+  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Regular.ttf);
 }
 
 @font-face {
   font-family: bilbao-button;
-  src: url(assets/fonts/Bilbao-SemiBolditalic.ttf);
+  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-SemiBolditalic.ttf);
 }
 
 @font-face {
   font-family: silkscreen;
-  src: url(assets/fonts/Silkscreen.ttf);
+  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Silkscreen.ttf);
 }
 
 /*------------------------------------------*/
