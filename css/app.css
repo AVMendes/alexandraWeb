@@ -248,6 +248,10 @@ a {
     width: 75px;
     height: auto;
   }
+  .mobile-header .logo img {
+    width: 75px;
+    height: auto;
+  }
   .mobile-header .name {
     width: auto;
     height: auto;
@@ -322,6 +326,10 @@ a {
     width: 120px;
     height: auto;
     margin-top: 15px;
+  }
+  .web-menu .logo img {
+    width: 120px;
+    height: auto;
   }
   .web-menu .name {
     width: 120px;
