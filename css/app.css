@@ -101,7 +101,7 @@
 /*----------------GENERAL-------------------*/
 body {
   margin: 0px;
-  width: 100vw;
+  width: 100%;
   color: #121212;
 }
 
@@ -190,9 +190,6 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
   }
   footer .social {
     width: 140px;
@@ -204,7 +201,7 @@ a {
   }
   footer .social img {
     width: 25px;
-    height: auto;
+    height: 25px;
   }
   footer .footer-info {
     width: 100%;
@@ -218,7 +215,7 @@ a {
 @media only screen and (min-width: 600px) {
   footer {
     height: 160px;
-    padding: 0px 130px 0px 130px;
+    padding: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -234,14 +231,13 @@ a {
   footer .social {
     width: 30%;
     height: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
   footer .social img {
     width: 45px;
+    height: 45px;
   }
 }
 
@@ -367,7 +363,6 @@ a {
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: 200px) {
   .container {
-    width: calc(100%-250px);
     min-height: 100vh;
     margin-left: 250px;
     padding: 20px 50px 20px 50px;
@@ -378,6 +373,8 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .container main {
     width: 100%;

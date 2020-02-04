@@ -1,13 +1,13 @@
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: $mobile) {
     .container {
-        width: calc(100%-250px);
         min-height: 100vh;
         margin-left: 250px;
         padding: 20px 50px 20px 50px;
 
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
 
         main {
             width: 100%;
