@@ -190,6 +190,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   footer .social {
     width: 140px;
@@ -364,8 +367,9 @@ a {
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: 200px) {
   .container {
-    width: 100%;
-    height: auto;
+    width: calc(100%-250px);
+    min-height: 100vh;
+    margin-left: 250px;
     padding: 20px 50px 20px 50px;
     display: -webkit-box;
     display: -ms-flexbox;
