@@ -38,7 +38,7 @@
   .made-by,
   .credit {
     font-family: bilbao;
-    font-weight: normal;
+    font-weight: 600;
   }
   /*MENU AND PAGE SUBTITLE*/
   h1 {
@@ -47,6 +47,7 @@
   /*NAME*/
   h2 {
     font-size: 24px;
+    font-weight: 700;
   }
   /*PROJECT NAME*/
   h3 {
@@ -55,6 +56,7 @@
   /*PROJECT DESCRIPTION*/
   h4 {
     font-size: 18px;
+    font-weight: 700;
   }
   p {
     font-size: 16px;
