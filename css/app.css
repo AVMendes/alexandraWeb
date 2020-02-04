@@ -225,7 +225,7 @@ a {
 
 @media only screen and (min-width: 600px) {
   footer {
-    height: 160px;
+    height: 100px;
     padding: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -374,7 +374,6 @@ a {
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: 200px) {
   .container {
-    min-height: 100vh;
     padding: 20px 50px 20px 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -389,7 +388,7 @@ a {
   .container main {
     width: 100%;
     height: auto;
-    min-height: calc(100vh - 260px);
+    min-height: calc(100vh - 220px);
   }
 }
 
@@ -400,6 +399,7 @@ a {
   }
   .container main {
     margin-top: 60px;
+    min-height: calc(100vh - 260px);
   }
 }
 
