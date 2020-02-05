@@ -224,9 +224,11 @@ a {
     -webkit-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
   }
-  footer .social .alert img {
+  footer .social .alert h4 {
     width: 100px;
     height: auto;
+    background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
+    background-size: cover;
   }
   footer .footer-info {
     width: 100%;
@@ -265,8 +267,8 @@ a {
     bottom: 125px;
   }
   footer .social img {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
   }
 }
 

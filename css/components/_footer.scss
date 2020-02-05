@@ -27,9 +27,12 @@
                 opacity: 0;
                 transition: 0.2s ease-in;
 
-                img {
+                h4 {
                     width: 100px;
                     height: auto;
+
+                    background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
+                    background-size: cover;
                 }
             }
         }
@@ -71,8 +74,8 @@
             }
 
             img {
-                width: 45px;
-                height: 45px;
+                width: 35px;
+                height: 35px;
             }
         }
     }
