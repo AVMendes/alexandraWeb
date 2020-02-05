@@ -482,6 +482,8 @@ a {
     width: 50%;
   }
   main .contact {
+    width: 100%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -489,6 +491,27 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  main .contact .line {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .contact .line a img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+  main .contact .line a p {
+    width: auto;
+    height: 35px;
   }
 }
 
