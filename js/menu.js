@@ -6,7 +6,7 @@ var anim = bodymovin.loadAnimation({
     path: "pixel_burger.json"
 });
 
-$(".mobile-header .menu").addEventListener("click", function() {
+$(".mobile-header .menu").click(function() {
     if ($(this).hasClass("closed")) {
         anim.setDirection(1);
         anim.play();
