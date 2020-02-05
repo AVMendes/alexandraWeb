@@ -19,6 +19,19 @@
                 width: 25px;
                 height: 25px;
             }
+
+            .alert {
+                position: absolute;
+                bottom: 200px;
+                right: 300px;
+                opacity: 0;
+                transition: 0.5 ease-in;
+
+                img {
+                    width: 100px;
+                    height: auto;
+                }
+            }
         }
 
         .footer-info {

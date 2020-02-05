@@ -216,6 +216,18 @@ a {
     width: 25px;
     height: 25px;
   }
+  footer .social .alert {
+    position: absolute;
+    bottom: 200px;
+    right: 300px;
+    opacity: 0;
+    -webkit-transition: 0.5 ease-in;
+    transition: 0.5 ease-in;
+  }
+  footer .social .alert img {
+    width: 100px;
+    height: auto;
+  }
   footer .footer-info {
     width: 100%;
     height: auto;
