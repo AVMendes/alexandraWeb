@@ -3,7 +3,8 @@ $(".share").click(function() {
 
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val($currentURL.text()).select();
+    $temp.val($currentURL.text());
+    $temp.select();
     document.execCommand("copy");
     $temp.remove();
 
