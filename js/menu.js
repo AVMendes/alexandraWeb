@@ -23,5 +23,6 @@ $(".mobile-header .menu").click(function() {
         $(this).removeClass("open");
         $(this).addClass("closed");
         $(".mobile-menu").removeClass("animated");
+        $(".mobile-menu").addClass("hidden");
     }
 });
