@@ -12,12 +12,16 @@ $(".mobile-header .menu").click(function() {
     if ($(this).hasClass("closed")) {
         anim.setDirection(1);
         anim.play();
+
         $(this).removeClass("closed");
         $(this).addClass("open");
+        $(".mobile-menu").addClass("animated");
     } else {
         anim.setDirection(-1);
         anim.play();
+
         $(this).removeClass("open");
         $(this).addClass("closed");
+        $(".mobile-menu").removeClass("animated");
     }
 });

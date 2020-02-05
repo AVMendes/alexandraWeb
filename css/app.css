@@ -298,6 +298,7 @@ a {
     top: 50px;
     right: 50px;
     z-index: 2;
+    cursor: pointer;
   }
   .mobile-menu {
     display: block;
@@ -305,7 +306,7 @@ a {
     width: 120px;
     height: 100%;
     top: 0;
-    right: 0;
+    right: -120px;
     z-index: 1;
     padding: 40px;
     text-align: center;
@@ -313,6 +314,9 @@ a {
     border-left: 5px solid;
     border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
+    -webkit-animation: showMenu 800ms ease-in;
+            animation: showMenu 800ms ease-in;
+    animation-direction: reverse;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -335,6 +339,32 @@ a {
     margin: auto;
     margin-top: 10px;
     line-height: 20px;
+  }
+  .mobile-menu.animated {
+    -webkit-animation: showMenu 800ms ease-out;
+            animation: showMenu 800ms ease-out;
+  }
+  @-webkit-keyframes showMenu {
+    0% {
+      right: -120px;
+    }
+    60% {
+      right: 50px;
+    }
+    100% {
+      right: 0px;
+    }
+  }
+  @keyframes showMenu {
+    0% {
+      right: -120px;
+    }
+    60% {
+      right: 50px;
+    }
+    100% {
+      right: 0px;
+    }
   }
   .web-menu {
     display: none;
