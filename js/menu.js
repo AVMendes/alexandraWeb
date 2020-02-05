@@ -1,5 +1,5 @@
 var anim = bodymovin.loadAnimation({
-    container: $(".mobile-header .menu"),
+    container: document.getElementById("menu-burger"),
     renderer: "svg",
     loop: false,
     autoplay: false,
