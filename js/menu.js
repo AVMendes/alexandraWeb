@@ -15,17 +15,16 @@ $(".mobile-header .menu").click(function() {
 
         $(this).removeClass("closed");
         $(this).addClass("open");
-        $(".mobile-menu").removeClass("hidden");
-        void $(".mobile-menu").offsetWidth;
-        $(".mobile-menu").addClass("animated");
+        $(".mobile-menu").addClass("animated").one('animationend webkitAnimationEnd oAnimationEnd', function() {
+            $(".mobile-menu").removeClass("hidden");
+          });;
     } else {
         anim.setDirection(-1);
         anim.play();
 
         $(this).removeClass("open");
         $(this).addClass("closed");
-        $(".mobile-menu").removeClass("animated");
-        void $(".mobile-menu").offsetWidth;
-        $(".mobile-menu").addClass("hidden");
+        $(".mobile-menu").addClass("hidden").one('animationend webkitAnimationEnd oAnimationEnd', function() {
+            $(".mobile-menu").removeClass("animated");;
     }
 });
