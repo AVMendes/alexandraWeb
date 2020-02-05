@@ -1,7 +1,7 @@
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: $mobile) {
 	.container {
-		padding: 20px 50px 20px 50px;
+		padding: 2vw 50px 20px 50px;
 
 		display: flex;
 		flex-direction: column;
@@ -18,10 +18,10 @@
 @media only screen and (min-width: $tablet) {
 	.container {
 		margin-left: 175px;
-		padding: 75px 10vw 20px 50px;
+		padding: 75px 10vw 20px 75px;
 
 		main {
-			margin-top: 60px;
+			margin-top: 0px;
 			min-height: calc(100vh - 260px);
 		}
 	}
