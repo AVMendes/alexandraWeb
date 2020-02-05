@@ -479,7 +479,7 @@ a {
             flex-direction: column;
   }
   main .page-subtitle {
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -520,6 +520,7 @@ a {
   main .contact .line a p {
     width: auto;
     margin: 0px;
+    word-break: break-word;
   }
 }
 
@@ -549,7 +550,8 @@ a {
   .container main {
     width: 100%;
     height: auto;
-    min-height: calc(100vh - 295px);
+    min-height: calc(100vh - 340px);
+    padding-bottom: 60px;
   }
 }
 
@@ -560,7 +562,7 @@ a {
   }
   .container main {
     margin-top: 0px;
-    min-height: calc(100vh - 260px);
+    min-height: calc(100vh - 195px);
   }
 }
 

@@ -10,7 +10,8 @@
 		main {
 			width: 100%;
 			height: auto;
-			min-height: calc(100vh - 295px);
+			min-height: calc(100vh - 340px);
+			padding-bottom: 60px;
 		}
 	}
 }
@@ -22,7 +23,7 @@
 
 		main {
 			margin-top: 0px;
-			min-height: calc(100vh - 260px);
+			min-height: calc(100vh - 195px);
 		}
 	}
 }
