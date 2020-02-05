@@ -312,7 +312,7 @@ a {
     margin-left: 4vw;
   }
   .mobile-header .menu {
-    position: fixed;
+    position: absolute;
     width: 20px;
     height: 20px;
     top: 50px;
@@ -480,6 +480,10 @@ a {
   }
   main .page-subtitle {
     width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
   }
   main .contact {
     width: 100%;
@@ -499,10 +503,14 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  }
+  main .contact .line a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   main .contact .line a img {
     width: 35px;
@@ -511,7 +519,7 @@ a {
   }
   main .contact .line a p {
     width: auto;
-    height: 35px;
+    margin: 0px;
   }
 }
 

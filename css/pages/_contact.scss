@@ -6,6 +6,10 @@
 
 		.page-subtitle {
 			width: 50%;
+			margin: auto;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
 		}
 
 		.contact {
@@ -21,9 +25,11 @@
 				margin-top: 50px;
 
 				display: flex;
-				flex-direction: row;
 
 				a {
+					display: flex;
+					align-items: center;
+
 					img {
 						width: 35px;
 						height: 35px;
@@ -32,7 +38,7 @@
 
 					p {
 						width: auto;
-						height: 35px;
+						margin: 0px;
 					}
 				}
 			}
