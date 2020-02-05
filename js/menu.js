@@ -15,6 +15,7 @@ $(".mobile-header .menu").click(function() {
 
         $(this).removeClass("closed");
         $(this).addClass("open");
+        $(".mobile-menu").removeClass("hidden");
         $(".mobile-menu").addClass("animated");
     } else {
         anim.setDirection(-1);

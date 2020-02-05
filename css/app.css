@@ -354,8 +354,8 @@ a {
     0% {
       right: -120px;
     }
-    60% {
-      right: 20px;
+    80% {
+      right: 10px;
     }
     100% {
       right: 0px;
@@ -365,8 +365,8 @@ a {
     0% {
       right: -120px;
     }
-    60% {
-      right: 20px;
+    80% {
+      right: 10px;
     }
     100% {
       right: 0px;
