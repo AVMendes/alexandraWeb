@@ -343,6 +343,10 @@ a {
   .mobile-menu.animated {
     -webkit-animation: showMenu 800ms ease-out;
             animation: showMenu 800ms ease-out;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
   }
   @-webkit-keyframes showMenu {
     0% {
