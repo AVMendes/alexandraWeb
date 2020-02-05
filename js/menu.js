@@ -22,6 +22,6 @@ $(".mobile-header .menu").click(function() {
 
         $(this).removeClass("open");
         $(this).addClass("closed");
-        $(".mobile-menu").css("right", "-120px");
+        $(".mobile-menu").css("right", "-200px");
     }
 });

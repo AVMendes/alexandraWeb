@@ -443,6 +443,7 @@ a {
 @media only screen and (max-height: 560px) {
   .mobile-menu {
     width: 200px;
+    right: -200px;
   }
   .mobile-menu a h1 {
     -webkit-writing-mode: horizontal-tb;
