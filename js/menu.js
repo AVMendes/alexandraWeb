@@ -6,7 +6,7 @@ var anim = bodymovin.loadAnimation({
     path: "pixel_burger.json"
 });
 
-anim.setSpeed(0.7);
+anim.setSpeed(0.5);
 
 $(".mobile-header .menu").click(function() {
     if ($(this).hasClass("closed")) {
