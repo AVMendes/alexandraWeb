@@ -15,13 +15,13 @@ $(".mobile-header .menu").click(function() {
 
         $(this).removeClass("closed");
         $(this).addClass("open");
-        $(".mobile-menu").style.right = "0px";
+        $(".mobile-menu").css("right", "0px");
     } else {
         anim.setDirection(-1);
         anim.play();
 
         $(this).removeClass("open");
         $(this).addClass("closed");
-        $(".mobile-menu").style.right = "-120px";
+        $(".mobile-menu").css("right", "-120px");
     }
 });
