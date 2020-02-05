@@ -59,6 +59,8 @@
         border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
         border-image-slice: 1;
 
+        transition: 0.5s;
+
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -75,31 +77,6 @@
                 margin-top: 10px;
                 line-height: 20px;
             }
-        }
-    }
-
-    .mobile-menu.hidden {
-        animation: showMenu 800ms ease-in;
-        animation-direction: reverse;
-    }
-
-    .mobile-menu.animated {
-        animation: showMenu 800ms ease-out;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes showMenu {
-        0% {
-            right: -120px;
-        }
-
-        80% {
-            right: 10px;
-        }
-
-        100% {
-            right: 0px;
         }
     }
 

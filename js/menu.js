@@ -15,19 +15,13 @@ $(".mobile-header .menu").click(function() {
 
         $(this).removeClass("closed");
         $(this).addClass("open");
-        $(".mobile-menu").addClass("animated");
-        setTimeout(function() {
-            $(".mobile-menu").removeClass("hidden");
-        }, 800);
+        $(".mobile-menu").style.right = "0px";
     } else {
         anim.setDirection(-1);
         anim.play();
 
         $(this).removeClass("open");
         $(this).addClass("closed");
-        $(".mobile-menu").addClass("hidden");
-        setTimeout(function() {
-            $(".mobile-menu").removeClass("animated");
-        }, 800);
+        $(".mobile-menu").style.right = "-120px";
     }
 });

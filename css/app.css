@@ -314,6 +314,8 @@ a {
     border-left: 5px solid;
     border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -336,41 +338,6 @@ a {
     margin: auto;
     margin-top: 10px;
     line-height: 20px;
-  }
-  .mobile-menu.hidden {
-    -webkit-animation: showMenu 800ms ease-in;
-            animation: showMenu 800ms ease-in;
-    animation-direction: reverse;
-  }
-  .mobile-menu.animated {
-    -webkit-animation: showMenu 800ms ease-out;
-            animation: showMenu 800ms ease-out;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-  }
-  @-webkit-keyframes showMenu {
-    0% {
-      right: -120px;
-    }
-    80% {
-      right: 10px;
-    }
-    100% {
-      right: 0px;
-    }
-  }
-  @keyframes showMenu {
-    0% {
-      right: -120px;
-    }
-    80% {
-      right: 10px;
-    }
-    100% {
-      right: 0px;
-    }
   }
   .web-menu {
     display: none;
