@@ -218,11 +218,11 @@ a {
   }
   footer .social .alert {
     position: absolute;
-    bottom: 200px;
-    right: 300px;
+    bottom: 150px;
+    right: 3vw;
     opacity: 0;
-    -webkit-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
   }
   footer .social .alert img {
     width: 100px;
@@ -260,6 +260,9 @@ a {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  footer .social .alert {
+    bottom: 125px;
   }
   footer .social img {
     width: 45px;
