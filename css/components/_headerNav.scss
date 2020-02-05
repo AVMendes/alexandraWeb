@@ -187,19 +187,13 @@
     }
 
     .current {
-        background: none;
+        background: none !important;
         padding-left: 0px;
         padding-top: 5px;
         padding-bottom: 5px;
 
-        :before {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            height: $bSmall $cBlack;
-            width: 50%; /* or 100px */
-        }
+        display: inline-block;
+        border-bottom: $bSmall $cBlack;
     }
 
     .web-menu {

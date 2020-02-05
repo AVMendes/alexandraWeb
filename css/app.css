@@ -452,19 +452,12 @@ a {
     text-orientation: mixed;
   }
   .current {
-    background: none;
+    background: none !important;
     padding-left: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-  .current :before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px #121212;
-    width: 50%;
-    /* or 100px */
+    display: inline-block;
+    border-bottom: 4px #121212;
   }
   .web-menu .pages a h1 {
     -webkit-writing-mode: horizontal-tb;
