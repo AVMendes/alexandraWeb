@@ -1,211 +1,211 @@
 /*-------------------MENU-------------------*/
 @media only screen and (min-width: $mobile) {
-    .mobile-header {
-        display: block;
-        width: 100%;
-        height: 125px;
-        padding: 25px;
+	.mobile-header {
+		display: block;
+		width: 100%;
+		height: 125px;
+		padding: 25px;
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
-        .logo {
-            width: 75px;
-            height: auto;
+		.logo {
+			width: 75px;
+			height: auto;
 
-            img {
-                width: 75px;
-                height: auto;
-            }
-        }
+			img {
+				width: 75px;
+				height: auto;
+			}
+		}
 
-        .name {
-            width: auto;
-            height: auto;
-        }
+		.name {
+			width: auto;
+			height: auto;
+		}
 
-        .menu-placeholder {
-            width: 20px;
-            height: 20px;
-            margin-right: 25px;
-            margin-left: 4vw;
-        }
+		.menu-placeholder {
+			width: 20px;
+			height: 20px;
+			margin-right: 25px;
+			margin-left: 4vw;
+		}
 
-        .menu {
-            position: fixed;
-            width: 20px;
-            height: 20px;
-            top: 50px;
-            right: 50px;
-            z-index: 2;
-            cursor: pointer;
-        }
-    }
+		.menu {
+			position: fixed;
+			width: 20px;
+			height: 20px;
+			top: 50px;
+			right: 50px;
+			z-index: 2;
+			cursor: pointer;
+		}
+	}
 
-    .mobile-menu {
-        display: block;
-        position: fixed;
-        width: 120px;
-        height: 100%;
-        top: 0;
-        right: -120px;
-        z-index: 1;
-        padding: 40px;
-        text-align: center;
+	.mobile-menu {
+		display: block;
+		position: fixed;
+		width: 120px;
+		height: 100%;
+		top: 0;
+		right: -120px;
+		z-index: 1;
+		padding: 40px;
+		text-align: center;
 
-        background-color: $cWhite;
-        border-left: $bLargeMobile solid;
-        border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
-        border-image-slice: 1;
+		background-color: $cWhite;
+		border-left: $bLargeMobile solid;
+		border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
+		border-image-slice: 1;
 
-        transition: 0.5s;
+		transition: 0.5s;
 
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
 
-        a {
-            margin-top: 4vw;
+		a {
+			margin-top: 4vw;
 
-            h1 {
-                -webkit-writing-mode: vertical-lr;
-                -ms-writing-mode: tb-lr;
-                writing-mode: vertical-lr;
-                text-orientation: upright;
-                margin: auto;
-                margin-top: 10px;
-                line-height: 20px;
-            }
-        }
-    }
+			h1 {
+				-webkit-writing-mode: vertical-lr;
+				-ms-writing-mode: tb-lr;
+				writing-mode: vertical-lr;
+				text-orientation: upright;
+				margin: auto;
+				margin-top: 10px;
+				line-height: 20px;
+			}
+		}
+	}
 
-    .web-menu {
-        display: none;
-    }
+	.web-menu {
+		display: none;
+	}
 
-    .current {
-        background-size: cover;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+	.current {
+		background-size: cover;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 
-    .current.work {
-        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_work.png);
-        background-position: left top;
-        padding-left: 2px;
-    }
+	.current.work {
+		background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_work.png);
+		background-position: left top;
+		padding-left: 2px;
+	}
 
-    .current.about {
-        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_about.png);
-        background-position: right bottom;
-        padding-right: 2px;
-    }
+	.current.about {
+		background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_about.png);
+		background-position: right bottom;
+		padding-right: 2px;
+	}
 
-    .current.contact {
-        background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_contact.png);
-        background-position: left top;
-        padding-left: 2px;
-    }
+	.current.contact {
+		background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/current_contact.png);
+		background-position: left top;
+		padding-left: 2px;
+	}
 }
 
 @media only screen and (min-width: $tablet) {
-    .mobile-header {
-        display: none;
-    }
+	.mobile-header {
+		display: none;
+	}
 
-    .mobile-menu {
-        display: none;
-    }
+	.mobile-menu {
+		display: none;
+	}
 
-    .web-menu {
-        display: block;
-        position: fixed;
-        width: 175px;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        padding: 30px;
-        text-align: center;
+	.web-menu {
+		display: block;
+		position: fixed;
+		width: 175px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 30px;
+		text-align: center;
 
-        border-right: $bLargeMobile solid;
-        border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
-        border-image-slice: 1;
+		border-right: $bLargeMobile solid;
+		border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
+		border-image-slice: 1;
 
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
 
-        .logo {
-            width: 100px;
-            height: auto;
-            // margin-top: 15px;
+		.logo {
+			width: 100px;
+			height: auto;
+			// margin-top: 15px;
 
-            img {
-                width: 100px;
-                height: auto;
-            }
-        }
+			img {
+				width: 100px;
+				height: auto;
+			}
+		}
 
-        .name {
-            width: 120px;
-            height: auto;
-            // margin-top: 15px;
-        }
+		.name {
+			width: 120px;
+			height: auto;
+			// margin-top: 15px;
+		}
 
-        .pages {
-            a {
-                margin-top: 50px;
+		.pages {
+			a {
+				margin-top: 50px;
 
-                h1 {
-                    -webkit-writing-mode: vertical-lr;
-                    -ms-writing-mode: tb-lr;
-                    writing-mode: vertical-lr;
-                    text-orientation: upright;
-                    margin-top: 30px;
-                    line-height: 22px;
-                }
-            }
-        }
-    }
+				h1 {
+					-webkit-writing-mode: vertical-lr;
+					-ms-writing-mode: tb-lr;
+					writing-mode: vertical-lr;
+					text-orientation: upright;
+					margin-top: 30px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (max-height: $short) {
-    .mobile-menu {
-        width: 200px;
-        right: -200px;
+	.mobile-menu {
+		width: 200px;
+		right: -200px;
 
-        a {
-            h1 {
-                -webkit-writing-mode: horizontal-tb;
-                -ms-writing-mode: horizontal-tb;
-                writing-mode: horizontal-tb;
-                text-orientation: mixed;
-            }
-        }
-    }
+		a {
+			h1 {
+				-webkit-writing-mode: horizontal-tb;
+				-ms-writing-mode: horizontal-tb;
+				writing-mode: horizontal-tb;
+				text-orientation: mixed;
+			}
+		}
+	}
 
-    .current {
-        background: none !important;
-        padding-left: 0px;
-        margin-bottom: 0px;
+	.current {
+		background: none !important;
+		padding-left: 0px;
+		margin-bottom: 0px;
 
-        display: inline-block;
-        border-bottom: $bSmall solid $cBlack;
-    }
+		display: inline-block;
+		border-bottom: $bSmall solid $cBlack;
+	}
 
-    .web-menu {
-        .pages {
-            a {
-                h1 {
-                    -webkit-writing-mode: horizontal-tb;
-                    -ms-writing-mode: horizontal-tb;
-                    writing-mode: horizontal-tb;
-                    text-orientation: mixed;
-                }
-            }
-        }
-    }
+	.web-menu {
+		.pages {
+			a {
+				h1 {
+					-webkit-writing-mode: horizontal-tb;
+					-ms-writing-mode: horizontal-tb;
+					writing-mode: horizontal-tb;
+					text-orientation: mixed;
+				}
+			}
+		}
+	}
 }
 /*------------------------------------------*/

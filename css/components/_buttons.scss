@@ -1,19 +1,19 @@
 /*-----------------BUTTONS------------------*/
 .button-border {
-    padding: $bSmall;
-    position: relative;
-    background: linear-gradient(to right, $cPurple, $cOrange);
+	padding: $bSmall;
+	position: relative;
+	background: linear-gradient(to right, $cPurple, $cOrange);
 }
 
 .button {
-    padding: 10px;
-    display: flex;
-    align-items: center;
+	padding: 10px;
+	display: flex;
+	align-items: center;
 }
 
 .button-text {
-    font-family: bilbao-button;
-    color: $cBlack;
-    text-align: center;
+	font-family: bilbao-button;
+	color: $cBlack;
+	text-align: center;
 }
 /*------------------------------------------*/

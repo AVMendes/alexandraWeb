@@ -1,109 +1,109 @@
 /*------------FONT STYLE & SIZE-------------*/
 @media only screen and (min-width: $mobile) {
-    h1,
-    h3 {
-        font-family: silkscreen;
-        font-weight: normal;
-    }
+	h1,
+	h3 {
+		font-family: silkscreen;
+		font-weight: normal;
+	}
 
-    h2,
-    h4,
-    p,
-    .made-by,
-    .credit {
-        font-family: bilbao;
-        font-weight: 600;
-    }
+	h2,
+	h4,
+	p,
+	.made-by,
+	.credit {
+		font-family: bilbao;
+		font-weight: 600;
+	}
 
-    /*MENU AND PAGE SUBTITLE*/
-    h1 {
-        font-size: 20px;
-    }
+	/*MENU AND PAGE SUBTITLE*/
+	h1 {
+		font-size: 20px;
+	}
 
-    /*NAME*/
-    h2 {
-        font-size: 18px;
-        font-weight: 700;
-    }
+	/*NAME*/
+	h2 {
+		font-size: 18px;
+		font-weight: 700;
+	}
 
-    /*PROJECT NAME*/
-    h3 {
-        font-size: 18px;
-    }
+	/*PROJECT NAME*/
+	h3 {
+		font-size: 18px;
+	}
 
-    /*PROJECT DESCRIPTION*/
-    h4 {
-        font-size: 12px;
-        font-weight: 700;
-    }
+	/*PROJECT DESCRIPTION*/
+	h4 {
+		font-size: 12px;
+		font-weight: 700;
+	}
 
-    p {
-        font-size: 12px;
-    }
+	p {
+		font-size: 12px;
+	}
 
-    .made-by {
-        font-size: 12px;
-    }
+	.made-by {
+		font-size: 12px;
+	}
 
-    .credit {
-        font-size: 10px;
-    }
+	.credit {
+		font-size: 10px;
+	}
 }
 
 @media only screen and (min-width: $tablet) {
-    /*MENU AND PAGE SUBTITLE*/
-    h1 {
-        font-size: 18px;
-    }
+	/*MENU AND PAGE SUBTITLE*/
+	h1 {
+		font-size: 18px;
+	}
 
-    /*NAME*/
-    h2 {
-        font-size: 16px;
-    }
+	/*NAME*/
+	h2 {
+		font-size: 16px;
+	}
 
-    /*PROJECT NAME*/
-    h3 {
-        font-size: 16px;
-    }
+	/*PROJECT NAME*/
+	h3 {
+		font-size: 16px;
+	}
 
-    /*PROJECT DESCRIPTION*/
-    h4 {
-        font-size: 14px;
-    }
+	/*PROJECT DESCRIPTION*/
+	h4 {
+		font-size: 14px;
+	}
 
-    p {
-        font-size: 14px;
-    }
+	p {
+		font-size: 14px;
+	}
 
-    .made-by {
-        font-size: 14px;
-    }
+	.made-by {
+		font-size: 14px;
+	}
 
-    .credit {
-        font-size: 12px;
-    }
+	.credit {
+		font-size: 12px;
+	}
 }
 /*------------------------------------------*/
 
 /*----------------GENERAL-------------------*/
 body {
-    margin: 0px;
-    width: 100%;
-    color: #121212;
+	margin: 0px;
+	width: 100%;
+	color: #121212;
 }
 
 div,
 nav,
 header {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box; /* Firefox, other Gecko */
-    box-sizing: border-box; /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
 }
 /*------------------------------------------*/
 
 /*----------------OVERRIDE------------------*/
 a {
-    text-decoration: none;
-    color: $cBlack;
+	text-decoration: none;
+	color: $cBlack;
 }
 /*------------------------------------------*/

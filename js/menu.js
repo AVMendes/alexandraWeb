@@ -1,27 +1,27 @@
 var anim = bodymovin.loadAnimation({
-    container: document.getElementById("menu-burger"),
-    renderer: "svg",
-    loop: false,
-    autoplay: false,
-    path: "pixel_burger.json"
+	container: document.getElementById("menu-burger"),
+	renderer: "svg",
+	loop: false,
+	autoplay: false,
+	path: "pixel_burger.json"
 });
 
 anim.setSpeed(2);
 
 $(".mobile-header .menu").click(function() {
-    if ($(this).hasClass("closed")) {
-        anim.setDirection(1);
-        anim.play();
+	if ($(this).hasClass("closed")) {
+		anim.setDirection(1);
+		anim.play();
 
-        $(this).removeClass("closed");
-        $(this).addClass("open");
-        $(".mobile-menu").css("right", "0px");
-    } else {
-        anim.setDirection(-1);
-        anim.play();
+		$(this).removeClass("closed");
+		$(this).addClass("open");
+		$(".mobile-menu").css("right", "0px");
+	} else {
+		anim.setDirection(-1);
+		anim.play();
 
-        $(this).removeClass("open");
-        $(this).addClass("closed");
-        $(".mobile-menu").css("right", "-200px");
-    }
+		$(this).removeClass("open");
+		$(this).addClass("closed");
+		$(".mobile-menu").css("right", "-200px");
+	}
 });
