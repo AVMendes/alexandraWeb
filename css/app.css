@@ -440,6 +440,31 @@ a {
   }
 }
 
+@media only screen and (max-height: 560px) {
+  .mobile-menu {
+    width: 200px;
+  }
+  .mobile-menu a h1 {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+  }
+  .current {
+    background: none;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+  }
+  .web-menu .pages a h1 {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+  }
+}
+
 /*------------------------------------------*/
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: 200px) {

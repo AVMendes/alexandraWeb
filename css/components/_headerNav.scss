@@ -170,4 +170,41 @@
         }
     }
 }
+
+@media only screen and (max-height: $short) {
+    .mobile-menu {
+        width: 200px;
+
+        a {
+            h1 {
+                -webkit-writing-mode: horizontal-tb;
+                -ms-writing-mode: horizontal-tb;
+                writing-mode: horizontal-tb;
+                text-orientation: mixed;
+            }
+        }
+    }
+
+    .current {
+        background: none;
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        text-decoration: underline;
+    }
+
+    .web-menu {
+        .pages {
+            a {
+                h1 {
+                    -webkit-writing-mode: horizontal-tb;
+                    -ms-writing-mode: horizontal-tb;
+                    writing-mode: horizontal-tb;
+                    text-orientation: mixed;
+                }
+            }
+        }
+    }
+}
 /*------------------------------------------*/
