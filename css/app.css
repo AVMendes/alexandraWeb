@@ -215,6 +215,7 @@ a {
   footer .social img {
     width: 25px;
     height: 25px;
+    cursor: pointer;
   }
   footer .social .alert {
     position: absolute;
@@ -228,7 +229,7 @@ a {
     width: 100px;
     height: 30px;
     padding: 10px;
-    padding-top: 8px;
+    padding-top: 10px;
     font-size: 15px;
     background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
     background-size: cover;
