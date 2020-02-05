@@ -173,7 +173,7 @@ a {
     border-radius: 15px;
     -webkit-box-shadow: 0px 0px 8px grey;
             box-shadow: 0px 0px 8px grey;
-    background-color: #ffffff;
+    background-color: #fefefa;
   }
 }
 
@@ -331,7 +331,7 @@ a {
     z-index: 1;
     padding: 40px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fefefa;
     border-left: 5px solid;
     border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
