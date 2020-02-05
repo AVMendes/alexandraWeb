@@ -229,6 +229,7 @@ a {
     height: 30px;
     padding: 10px;
     padding-top: 8px;
+    font-size: 15px;
     background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
     background-size: cover;
   }
