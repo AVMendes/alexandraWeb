@@ -455,7 +455,15 @@ a {
     padding-left: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-decoration: underline;
+  }
+  .current :before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px #121212;
+    width: 50%;
+    /* or 100px */
   }
   .web-menu .pages a h1 {
     -webkit-writing-mode: horizontal-tb;

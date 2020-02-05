@@ -191,7 +191,14 @@
         padding-top: 5px;
         padding-bottom: 5px;
 
-        text-decoration: underline;
+        :before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: $bSmall $cBlack;
+            width: 50%; /* or 100px */
+        }
     }
 
     .web-menu {
