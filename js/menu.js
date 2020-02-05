@@ -16,6 +16,7 @@ $(".mobile-header .menu").click(function() {
         $(this).removeClass("closed");
         $(this).addClass("open");
         $(".mobile-menu").removeClass("hidden");
+        void $(".mobile-menu").offsetWidth;
         $(".mobile-menu").addClass("animated");
     } else {
         anim.setDirection(-1);
@@ -24,6 +25,7 @@ $(".mobile-header .menu").click(function() {
         $(this).removeClass("open");
         $(this).addClass("closed");
         $(".mobile-menu").removeClass("animated");
+        void $(".mobile-menu").offsetWidth;
         $(".mobile-menu").addClass("hidden");
     }
 });
