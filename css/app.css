@@ -562,7 +562,7 @@ a {
   }
   .container main {
     margin-top: 0px;
-    min-height: calc(100vh - 195px);
+    min-height: calc(100vh - 255px);
   }
 }
 
