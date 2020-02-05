@@ -189,11 +189,10 @@
     .current {
         background: none !important;
         padding-left: 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        margin-bottom: 0px;
 
         display: inline-block;
-        border-bottom: $bSmall $cBlack;
+        border-bottom: $bSmall solid $cBlack;
     }
 
     .web-menu {
