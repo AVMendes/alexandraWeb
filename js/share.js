@@ -1,9 +1,9 @@
-$(".share").click(function() {
-    var $currentURL = $(location).attr("href");
+var currentURL = $(location).attr("href");
 
+$(".share").click(function() {
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val($currentURL.text());
+    $temp.val(currentURL.text());
     $temp.select();
     document.execCommand("copy");
     $temp.remove();
