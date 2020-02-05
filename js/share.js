@@ -3,7 +3,7 @@ var currentURL = $(location).attr("href");
 $(".share").click(function() {
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val(currentURL.text());
+    $temp.val(currentURL);
     $temp.select();
     document.execCommand("copy");
     $temp.remove();
