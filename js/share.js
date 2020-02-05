@@ -1,7 +1,7 @@
 $(".share").click(function() {
     var $currentURL = $(location).attr("href");
 
-    $currentURL.text().select();
+    $currentURL.select();
     document.execCommand("copy");
 
     $(".alert").css("opacity", "1");
