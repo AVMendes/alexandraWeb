@@ -1,11 +1,11 @@
 $(".share").click(function() {
-    $currentURL = $(location).attr("href");
+    var $currentURL = $(location).attr("href");
 
-    $currentURL.select();
+    $currentURL.text().select();
     document.execCommand("copy");
 
     $(".alert").css("opacity", "1");
-    setTimeout(() => {
+    setTimeout(function() {
         $(".alert").css("opacity", "0");
     }, 1500);
 });
