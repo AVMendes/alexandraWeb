@@ -221,8 +221,8 @@ a {
     bottom: 200px;
     right: 300px;
     opacity: 0;
-    -webkit-transition: 0.5 ease-in;
-    transition: 0.5 ease-in;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
   }
   footer .social .alert img {
     width: 100px;
