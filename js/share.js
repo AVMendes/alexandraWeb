@@ -11,5 +11,5 @@ $(".share").click(function() {
     $(".alert").css("opacity", "1");
     setTimeout(function() {
         $(".alert").css("opacity", "0");
-    }, 1500);
+    }, 1000);
 });
