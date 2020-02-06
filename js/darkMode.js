@@ -10,15 +10,12 @@ var on = false;
 
 $(".toggle-DM").click(function() {
 	if (on == false) {
-		darkMode.play();
-		darkMode.addEventListener(enterFrame(46), function() {
-			darkMode.pause();
-		});
+		darkMode.playSegments([0, 46], forceFlag);
 
 		console.log("Dark mode activated");
 		on = true;
 	} else if (on == true) {
-		darkMode.play();
+		darkMode.playSegments([46, 96], forceFlag);
 
 		console.log("Dark mode deactivated");
 		on = false;
