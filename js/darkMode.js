@@ -3,7 +3,7 @@ var darkMode = bodymovin.loadAnimation({
 	renderer: "svg",
 	loop: false,
 	autoplay: false,
-	path: "pixel_burger.json"
+	path: "dark_mode.json"
 });
 
 var on = false;
