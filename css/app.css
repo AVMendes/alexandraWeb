@@ -347,6 +347,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .mobile-menu a {
     margin-top: 4vw;
@@ -360,9 +363,10 @@ a {
     margin-top: 10px;
     line-height: 20px;
   }
-  .mobile-menu .dark-mode {
+  .mobile-menu .toggle-DM {
     width: 50px;
     height: auto;
+    margin-top: 40px;
     cursor: pointer;
   }
   .web-menu {
