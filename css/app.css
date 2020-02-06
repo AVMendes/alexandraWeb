@@ -363,12 +363,6 @@ a {
     margin-top: 10px;
     line-height: 20px;
   }
-  .mobile-menu .toggle-DM {
-    width: 60px;
-    height: auto;
-    margin-top: 8vh;
-    cursor: pointer;
-  }
   .web-menu {
     display: none;
   }
@@ -447,12 +441,6 @@ a {
     text-orientation: upright;
     margin-top: 30px;
     line-height: 22px;
-  }
-  .web-menu .toggle-DM {
-    width: 80px;
-    height: auto;
-    margin-top: 3vh;
-    cursor: pointer;
   }
 }
 
