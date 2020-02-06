@@ -364,9 +364,9 @@ a {
     line-height: 20px;
   }
   .mobile-menu .toggle-DM {
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 8vh;
     cursor: pointer;
   }
   .web-menu {
