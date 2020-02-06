@@ -365,7 +365,7 @@ a {
   }
   .mobile-menu .toggle-DM {
     width: 50px;
-    height: auto;
+    height: 30px;
     margin-top: 40px;
     cursor: pointer;
   }

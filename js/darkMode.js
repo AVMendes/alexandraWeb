@@ -1,5 +1,5 @@
 var darkMode = bodymovin.loadAnimation({
-	container: document.getElementById("menu-burger"),
+	container: document.getElementById("dark-mode"),
 	renderer: "svg",
 	loop: false,
 	autoplay: false,
@@ -8,7 +8,7 @@ var darkMode = bodymovin.loadAnimation({
 
 var on = false;
 
-$(".dark-mode").click(function() {
+$(".toggle-DM").click(function() {
 	if (on == false) {
 		darkMode.setDirection(1);
 		darkMode.play();
