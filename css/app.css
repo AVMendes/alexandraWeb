@@ -556,13 +556,13 @@ a {
 /*------------------WORK--------------------*/
 @media only screen and (min-width: 200px) {
   main .projects {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 }
 
 @media only screen and (min-width: 850px) {
   main .projects {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
