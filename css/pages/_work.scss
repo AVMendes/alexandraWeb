@@ -6,6 +6,10 @@
 			flex-wrap: wrap;
 			justify-content: space-between;
 			margin-top: 40px;
+
+			.gap {
+				display: none;
+			}
 		}
 	}
 }
@@ -14,6 +18,11 @@
 	main {
 		.projects {
 			margin-top: 50px;
+
+			.gap {
+				display: flex;
+				flex: 1 0 10px;
+			}
 		}
 	}
 }
