@@ -172,8 +172,14 @@ a {
        object-fit: cover;
   }
   .card-container .project-info-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     position: relative;
-    right: 10px;
+    right: 3vw;
     bottom: 60px;
   }
   .card-container .project-info-link .project-info {

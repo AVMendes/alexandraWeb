@@ -17,8 +17,10 @@
 		}
 
 		.project-info-link {
+			display: flex;
+			justify-content: flex-end;
 			position: relative;
-			right: 10px;
+			right: 3vw;
 			bottom: 60px;
 
 			.project-info {
