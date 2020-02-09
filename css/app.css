@@ -159,6 +159,7 @@ a {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    flex-wrap: wrap;
     width: 100%;
   }
   .card-container a .card-img {
