@@ -1,16 +1,7 @@
 /*-----------------CONTACT------------------*/
 @media only screen and (min-width: $mobile) {
 	main {
-		display: flex;
 		flex-direction: column;
-
-		.page-subtitle {
-			width: 60%;
-			margin: auto;
-			margin-top: 0px;
-			margin-bottom: 0px;
-			text-align: center;
-		}
 
 		.contact {
 			width: 100%;

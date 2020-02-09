@@ -12,6 +12,16 @@
 			height: auto;
 			min-height: calc(100vh - 340px);
 			padding-bottom: 60px;
+
+			display: flex;
+
+			.page-subtitle {
+				width: 60%;
+				margin: auto;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				text-align: center;
+			}
 		}
 	}
 }

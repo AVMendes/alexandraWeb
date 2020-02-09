@@ -149,24 +149,28 @@ a {
 
 /*------------------------------------------*/
 /*------------------CARDS-------------------*/
-.card-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 @media only screen and (min-width: 200px) {
-  .card-img {
-    width: 100%;
+  .card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card-container .card-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 165px;
     border-radius: 15px;
   }
-  .project-info {
+  .card-container .project-info {
     width: 80%;
     height: auto;
     padding: 15px;
@@ -178,11 +182,11 @@ a {
 }
 
 @media only screen and (min-width: 850px) {
-  .card-img {
+  .card-container .card-img {
     width: 350px;
     height: 200px;
   }
-  .project-info {
+  .card-container .project-info {
     width: 300px;
   }
 }
@@ -474,20 +478,10 @@ a {
 /*-----------------CONTACT------------------*/
 @media only screen and (min-width: 200px) {
   main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  main .page-subtitle {
-    width: 60%;
-    margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
   }
   main .contact {
     width: 100%;
@@ -556,6 +550,16 @@ a {
     height: auto;
     min-height: calc(100vh - 340px);
     padding-bottom: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container main .page-subtitle {
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
   }
 }
 
