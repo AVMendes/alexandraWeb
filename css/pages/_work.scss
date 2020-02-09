@@ -6,4 +6,12 @@
 		}
 	}
 }
+
+@media only screen and (min-width: $tablet) {
+	main {
+		.projects {
+			margin-top: 40px;
+		}
+	}
+}
 /*------------------------------------------*/

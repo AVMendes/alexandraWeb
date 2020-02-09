@@ -161,7 +161,7 @@ a {
         flex-wrap: wrap;
     width: 100%;
   }
-  .card-container .card-img {
+  .card-container a .card-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -174,7 +174,7 @@ a {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .card-container .project-info {
+  .card-container a .project-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,10 +191,10 @@ a {
             box-shadow: 0px 0px 8px grey;
     background-color: #fefefa;
   }
-  .card-container .project-info h3 {
+  .card-container a .project-info h3 {
     margin: 0;
   }
-  .card-container .project-info p {
+  .card-container a .project-info p {
     margin-bottom: 0;
   }
 }
@@ -203,11 +203,11 @@ a {
   .card-container {
     width: 350px;
   }
-  .card-container .card-img {
+  .card-container a .card-img {
     width: 325px;
     height: 200px;
   }
-  .card-container .project-info {
+  .card-container a .project-info {
     width: 270px;
     left: 45px;
   }
@@ -557,6 +557,12 @@ a {
 @media only screen and (min-width: 200px) {
   main .projects {
     margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  main .projects {
+    margin-top: 40px;
   }
 }
 
