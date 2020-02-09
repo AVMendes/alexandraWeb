@@ -16,10 +16,11 @@
 			display: flex;
 
 			.page-subtitle {
-				width: 60%;
+				width: 70%;
 				margin: auto;
 				margin-top: 0px;
 				margin-bottom: 0px;
+				font-size: 16px;
 				text-align: center;
 			}
 		}
@@ -34,6 +35,11 @@
 		main {
 			margin-top: 0px;
 			min-height: calc(100vh - 255px);
+
+			.page-subtitle {
+				width: 60%;
+				font-size: 18px;
+			}
 		}
 	}
 }

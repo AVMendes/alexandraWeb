@@ -159,6 +159,7 @@ a {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    width: 100%;
   }
   .card-container .card-img {
     display: -webkit-box;
@@ -167,11 +168,18 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 165px;
+    width: 100%;
+    height: 180px;
     border-radius: 15px;
   }
   .card-container .project-info {
-    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    width: 85%;
     height: auto;
     padding: 15px;
     border-radius: 15px;
@@ -182,12 +190,17 @@ a {
 }
 
 @media only screen and (min-width: 850px) {
+  .card-container {
+    width: 350px;
+  }
   .card-container .card-img {
     width: 350px;
     height: 200px;
   }
   .card-container .project-info {
-    width: 300px;
+    width: 290px;
+    left: 50px;
+    bottom: 60px;
   }
 }
 
@@ -531,6 +544,14 @@ a {
 }
 
 /*------------------------------------------*/
+/*------------------WORK--------------------*/
+@media only screen and (min-width: 200px) {
+  main .projects {
+    margin-top: 50px;
+  }
+}
+
+/*------------------------------------------*/
 /*------------------LAYOUT------------------*/
 @media only screen and (min-width: 200px) {
   .container {
@@ -555,10 +576,11 @@ a {
     display: flex;
   }
   .container main .page-subtitle {
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -571,6 +593,10 @@ a {
   .container main {
     margin-top: 0px;
     min-height: calc(100vh - 255px);
+  }
+  .container main .page-subtitle {
+    width: 60%;
+    font-size: 18px;
   }
 }
 
