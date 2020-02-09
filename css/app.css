@@ -154,25 +154,27 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     width: 100%;
   }
   .card-container a .card-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     width: 100%;
     height: 180px;
     border-radius: 15px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .card-container a {
+    position: relative;
+    right: 10px;
+    bottom: 60px;
   }
   .card-container a .project-info {
     display: -webkit-box;
@@ -180,11 +182,8 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    position: relative;
     width: 85%;
     height: auto;
-    left: 30px;
-    bottom: 60px;
     padding: 15px;
     border-radius: 15px;
     -webkit-box-shadow: 0px 0px 8px grey;
@@ -201,15 +200,17 @@ a {
 
 @media only screen and (min-width: 850px) {
   .card-container {
-    width: 350px;
+    width: 325px;
   }
   .card-container a .card-img {
     width: 325px;
     height: 200px;
   }
+  .card-container a {
+    right: 15px;
+  }
   .card-container a .project-info {
     width: 270px;
-    left: 45px;
   }
 }
 
@@ -556,6 +557,12 @@ a {
 /*------------------WORK--------------------*/
 @media only screen and (min-width: 200px) {
   main .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 40px;
   }
 }

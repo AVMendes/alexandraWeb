@@ -2,6 +2,8 @@
 @media only screen and (min-width: $mobile) {
 	main {
 		.projects {
+			display: flex;
+			justify-content: space-between;
 			margin-top: 40px;
 		}
 	}
