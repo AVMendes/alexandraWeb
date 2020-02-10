@@ -318,7 +318,8 @@ a {
             justify-content: flex-end;
     position: relative;
     right: 3vw;
-    bottom: 60px;
+    bottom: 50px;
+    width: 70%;
   }
   .card-container .project-info-link .project-info {
     display: -webkit-box;
@@ -326,7 +327,6 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 85%;
     height: auto;
     padding: 15px;
     border-radius: 15px;
