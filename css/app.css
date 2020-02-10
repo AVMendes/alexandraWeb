@@ -297,6 +297,14 @@ a {
     border-radius: 15px;
     -o-object-fit: cover;
        object-fit: cover;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  .card-container a .card-img:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   .card-container .project-info-link {
     display: -webkit-box;

@@ -13,6 +13,11 @@
 				height: 180px;
 				border-radius: 15px;
 				object-fit: cover;
+				transition: transform 0.5s ease;
+			}
+
+			.card-img:hover {
+				transform: scale(1.5);
 			}
 		}
 
