@@ -29,11 +29,13 @@
 			position: relative;
 			right: 3vw;
 			bottom: 50px;
-			width: 70%;
+			width: 90%;
+			max-width: 460px;
 
 			.project-info {
 				display: flex;
 				flex-wrap: wrap;
+				width: 100%;
 				height: auto;
 				padding: 15px;
 				border-radius: 15px;
