@@ -288,10 +288,11 @@ a {
             justify-content: flex-end;
     width: 100%;
   }
-  .card-container a {
+  .card-container a:not(.project-info-link) {
     border-radius: 15px;
+    overflow: hidden;
   }
-  .card-container a .card-img {
+  .card-container a:not(.project-info-link) .card-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -304,7 +305,7 @@ a {
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
-  .card-container a .card-img:hover {
+  .card-container a:not(.project-info-link) .card-img:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }

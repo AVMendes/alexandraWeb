@@ -6,8 +6,9 @@
 		justify-content: flex-end;
 		width: 100%;
 
-		a {
+		a:not(.project-info-link) {
 			border-radius: 15px;
+			overflow: hidden;
 
 			.card-img {
 				display: flex;
