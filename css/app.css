@@ -88,7 +88,8 @@
   h4 {
     font-size: 14px;
   }
-  p {
+  p,
+  a {
     font-size: 14px;
   }
   .made-by {
