@@ -9,6 +9,7 @@
 	h2,
 	h4,
 	p,
+	a,
 	.made-by,
 	.credit {
 		font-family: bilbao;
@@ -37,7 +38,8 @@
 		font-weight: 700;
 	}
 
-	p {
+	p,
+	a {
 		font-size: 12px;
 	}
 
