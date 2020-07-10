@@ -437,9 +437,8 @@ a {
             order: 1;
   }
   footer .social {
-    width: 70%;
+    width: 30%;
     height: 100%;
-    padding-left: 20vw;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
