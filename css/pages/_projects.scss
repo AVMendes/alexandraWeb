@@ -14,5 +14,13 @@
 }
 
 @media only screen and (min-width: $tablet) {
+	main {
+		.project-card {
+			.project-info-link {
+				position: relative;
+				bottom: 35px;
+			}
+		}
+	}
 }
 /*------------------------------------------*/
