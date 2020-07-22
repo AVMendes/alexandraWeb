@@ -287,9 +287,9 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
   }
   .card-container a:not(.project-info-link) {
@@ -713,6 +713,11 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 40px;
+  }
+  main .projects .card-container {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   main .projects .card-container .project-info-link {
     -webkit-box-pack: end;
