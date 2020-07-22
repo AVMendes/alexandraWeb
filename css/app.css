@@ -749,7 +749,7 @@ a {
 /*------------------------------------------*/
 /*----------------PROJECTS------------------*/
 @media only screen and (min-width: 200px) {
-  main .card-container .project-info-link {
+  main .card-container .project-page .project-info-link {
     width: 100%;
     max-width: none;
   }
