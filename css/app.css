@@ -794,7 +794,7 @@ a {
 }
 
 @media only screen and (min-width: 850px) {
-  .projects main .project-card .project-info-link {
+  .projects main .card-container .project-info-link {
     position: relative;
     bottom: 35px;
     right: 0px;
