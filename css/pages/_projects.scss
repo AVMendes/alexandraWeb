@@ -1,12 +1,11 @@
 /*----------------PROJECTS------------------*/
 @media only screen and (min-width: $mobile) {
-	main {
-		.project-card {
-			.project-info-link {
-				width: 100%;
-				max-width: none;
-
-				.project-info {
+	.projects {
+		main {
+			.card-container {
+				.project-info-link {
+					width: 100%;
+					max-width: none;
 				}
 			}
 		}
@@ -14,11 +13,14 @@
 }
 
 @media only screen and (min-width: $tablet) {
-	main {
-		.project-card {
-			.project-info-link {
-				position: relative;
-				bottom: 35px;
+	.projects {
+		main {
+			.project-card {
+				.project-info-link {
+					position: relative;
+					bottom: 35px;
+					right: 0px;
+				}
 			}
 		}
 	}

@@ -704,7 +704,7 @@ a {
 /*------------------------------------------*/
 /*------------------WORK--------------------*/
 @media only screen and (min-width: 200px) {
-  main .projects {
+  .work main .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -715,12 +715,12 @@ a {
             justify-content: space-between;
     margin-top: 40px;
   }
-  main .projects .card-container {
+  .work main .projects .card-container {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  main .projects .card-container .project-info-link {
+  .work main .projects .card-container .project-info-link {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -728,19 +728,19 @@ a {
     bottom: 50px;
     right: 3vw;
   }
-  main .projects .gap {
+  .work main .projects .gap {
     display: none;
   }
 }
 
 @media only screen and (min-width: 850px) {
-  main .projects {
+  .work main .projects {
     margin-top: 50px;
   }
-  main .projects .card-container .project-info-link {
+  .work main .projects .card-container .project-info-link {
     right: 15px;
   }
-  main .projects .gap {
+  .work main .projects .gap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -753,16 +753,17 @@ a {
 /*------------------------------------------*/
 /*----------------PROJECTS------------------*/
 @media only screen and (min-width: 200px) {
-  main .project-card .project-info-link {
+  .projects main .card-container .project-info-link {
     width: 100%;
     max-width: none;
   }
 }
 
 @media only screen and (min-width: 850px) {
-  main .project-card .project-info-link {
+  .projects main .project-card .project-info-link {
     position: relative;
     bottom: 35px;
+    right: 0px;
   }
 }
 

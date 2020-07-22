@@ -1,44 +1,48 @@
 /*------------------WORK--------------------*/
 @media only screen and (min-width: $mobile) {
-	main {
-		.projects {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin-top: 40px;
+	.work {
+		main {
+			.projects {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-top: 40px;
 
-			.card-container {
-				justify-content: flex-end;
-
-				.project-info-link {
+				.card-container {
 					justify-content: flex-end;
-					position: relative;
-					bottom: 50px;
-					right: 3vw;
-				}
-			}
 
-			.gap {
-				display: none;
+					.project-info-link {
+						justify-content: flex-end;
+						position: relative;
+						bottom: 50px;
+						right: 3vw;
+					}
+				}
+
+				.gap {
+					display: none;
+				}
 			}
 		}
 	}
 }
 
 @media only screen and (min-width: $tablet) {
-	main {
-		.projects {
-			margin-top: 50px;
+	.work {
+		main {
+			.projects {
+				margin-top: 50px;
 
-			.card-container {
-				.project-info-link {
-					right: 15px;
+				.card-container {
+					.project-info-link {
+						right: 15px;
+					}
 				}
-			}
 
-			.gap {
-				display: flex;
-				flex: 1 0 30px;
+				.gap {
+					display: flex;
+					flex: 1 0 30px;
+				}
 			}
 		}
 	}
