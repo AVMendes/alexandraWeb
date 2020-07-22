@@ -27,6 +27,7 @@
 
 			.project-description {
 				display: flex;
+				flex-wrap: wrap;
 				width: 100%;
 			}
 		}
@@ -46,6 +47,18 @@
 
 			.project-link {
 				margin-top: 50px;
+			}
+			.project-description {
+				flex-wrap: nowrap;
+				justify-content: space-between;
+
+				.project-synopsis {
+					width: 60%;
+				}
+
+				.project-involvement {
+					width: 30%;
+				}
 			}
 		}
 	}

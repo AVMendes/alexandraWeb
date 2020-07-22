@@ -786,6 +786,8 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -798,6 +800,19 @@ a {
   }
   .projects main .project-link {
     margin-top: 50px;
+  }
+  .projects main .project-description {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects main .project-description .project-synopsis {
+    width: 60%;
+  }
+  .projects main .project-description .project-involvement {
+    width: 30%;
   }
 }
 
