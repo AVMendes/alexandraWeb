@@ -16,75 +16,110 @@
 		font-weight: 600;
 	}
 
+	// /*MENU AND PAGE SUBTITLE*/
+	// h1 {
+	// 	font-size: 20px;
+	// }
+
+	// /*NAME*/
+	// h2 {
+	// 	font-size: 18px;
+	// 	font-weight: 700;
+	// }
+
+	// /*PROJECT NAME*/
+	// h3 {
+	// 	font-size: 18px;
+	// }
+
+	// /*PROJECT DESCRIPTION*/
+	// h4 {
+	// 	font-size: 12px;
+	// 	font-weight: 700;
+	// }
+
+	// p,
+	// a {
+	// 	font-size: 12px;
+	// }
+
+	// .made-by {
+	// 	font-size: 12px;
+	// }
+
+	// .credit {
+	// 	font-size: 10px;
+	// }
+
 	/*MENU AND PAGE SUBTITLE*/
 	h1 {
-		font-size: 20px;
+		font-size: $fVeryLarge;
 	}
 
 	/*NAME*/
 	h2 {
-		font-size: 18px;
+		font-size: $fLarge;
 		font-weight: 700;
 	}
 
 	/*PROJECT NAME*/
 	h3 {
-		font-size: 18px;
+		font-size: $fLarge;
 	}
 
 	/*PROJECT DESCRIPTION*/
 	h4 {
-		font-size: 12px;
+		font-size: $fMedium;
 		font-weight: 700;
 	}
 
 	p,
 	a {
-		font-size: 12px;
+		font-size: $fMedium;
 	}
 
 	.made-by {
-		font-size: 12px;
+		font-size: $fMedium;
 	}
 
 	.credit {
-		font-size: 10px;
+		font-size: $fVerySmall;
 	}
 }
 
 @media only screen and (min-width: $tablet) {
-	/*MENU AND PAGE SUBTITLE*/
-	h1 {
-		font-size: 18px;
-	}
+	// /*MENU AND PAGE SUBTITLE*/
+	// h1 {
+	// 	font-size: 18px;
+	// }
 
-	/*NAME*/
-	h2 {
-		font-size: 16px;
-	}
+	// /*NAME*/
+	// h2 {
+	// 	font-size: 16px;
+	// }
 
-	/*PROJECT NAME*/
-	h3 {
-		font-size: 16px;
-	}
+	// /*PROJECT NAME*/
+	// h3 {
+	// 	font-size: 16px;
+	// }
 
-	/*PROJECT DESCRIPTION*/
-	h4 {
-		font-size: 14px;
-	}
+	// /*PROJECT DESCRIPTION*/
+	// h4 {
+	// 	font-size: 14px;
+	// }
 
-	p,
-	a {
-		font-size: 14px;
-	}
+	// p,
+	// a {
+	// 	font-size: 14px;
+	// }
 
-	.made-by {
-		font-size: 14px;
-	}
+	// .made-by {
+	// 	font-size: 14px;
+	// }
 
-	.credit {
-		font-size: 12px;
-	}
+	// .credit {
+	// 	font-size: 12px;
+	// }
 }
 /*------------------------------------------*/
 

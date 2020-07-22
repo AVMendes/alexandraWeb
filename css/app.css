@@ -52,57 +52,28 @@
   }
   /*MENU AND PAGE SUBTITLE*/
   h1 {
+    font-size: 22px;
+  }
+  /*NAME*/
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  /*PROJECT NAME*/
+  h3 {
     font-size: 20px;
   }
-  /*NAME*/
-  h2 {
-    font-size: 18px;
-    font-weight: 700;
-  }
-  /*PROJECT NAME*/
-  h3 {
-    font-size: 18px;
-  }
   /*PROJECT DESCRIPTION*/
   h4 {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
   }
   p,
   a {
-    font-size: 12px;
-  }
-  .made-by {
-    font-size: 12px;
-  }
-  .credit {
-    font-size: 10px;
-  }
-}
-
-@media only screen and (min-width: 850px) {
-  /*MENU AND PAGE SUBTITLE*/
-  h1 {
-    font-size: 18px;
-  }
-  /*NAME*/
-  h2 {
     font-size: 16px;
   }
-  /*PROJECT NAME*/
-  h3 {
-    font-size: 16px;
-  }
-  /*PROJECT DESCRIPTION*/
-  h4 {
-    font-size: 14px;
-  }
-  p,
-  a {
-    font-size: 14px;
-  }
   .made-by {
-    font-size: 14px;
+    font-size: 16px;
   }
   .credit {
     font-size: 12px;
