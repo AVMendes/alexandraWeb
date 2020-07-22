@@ -774,7 +774,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 250px;
+    height: 180px;
     margin-top: 20px;
   }
   .projects main .project-banner img {
@@ -802,6 +802,9 @@ a {
   .projects main .project-link {
     margin-top: 50px;
   }
+  .projects main .project-banner {
+    height: 250px;
+  }
   .projects main .project-description {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -815,6 +818,9 @@ a {
   }
   .projects main .project-description .project-involvement {
     width: 30%;
+  }
+  .projects main .project-close {
+    margin-top: 10px;
   }
 }
 
