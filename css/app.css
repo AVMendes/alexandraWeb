@@ -7,26 +7,26 @@
 /*------------------FONTS-------------------*/
 @font-face {
   font-family: bilbao-light;
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Normal.ttf);
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Normal.ttf) format("truetype");
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-Normal.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-Normal.ttf) format("truetype");
 }
 
 @font-face {
   font-family: bilbao;
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Regular.ttf);
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Regular.ttf) format("truetype");
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-Regular.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: bilbao-button;
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-SemiBolditalic.ttf);
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-SemiBolditalic.ttf) format("truetype");
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-SemiBolditalic.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Bilbao-SemiBolditalic.ttf) format("truetype");
 }
 
 @font-face {
   font-family: silkscreen;
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Silkscreen.ttf);
-  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Silkscreen.ttf) format("truetype");
+  src: url(https://alexandramendes.com/assets/fonts/Silkscreen.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Silkscreen.ttf) format("truetype");
 }
 
 /*------------------------------------------*/
