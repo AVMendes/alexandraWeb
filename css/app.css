@@ -338,6 +338,7 @@ a {
     background-color: #fefefa;
   }
   .card-container .project-info-link .project-info h3 {
+    width: 100%;
     margin: 0;
   }
   .card-container .project-info-link .project-info p {
@@ -724,7 +725,6 @@ a {
         -ms-flex-pack: end;
             justify-content: flex-end;
     position: relative;
-    right: 3vw;
     bottom: 50px;
   }
   main .projects .gap {
@@ -743,6 +743,15 @@ a {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 30px;
             flex: 1 0 30px;
+  }
+}
+
+/*------------------------------------------*/
+/*----------------PROJECTS------------------*/
+@media only screen and (min-width: 200px) {
+  main .card-container .project-info-link {
+    width: 100%;
+    max-width: none;
   }
 }
 
