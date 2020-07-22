@@ -7,6 +7,15 @@
 			justify-content: space-between;
 			margin-top: 40px;
 
+			.card-container {
+				.project-info-link {
+					justify-content: flex-end;
+					position: relative;
+					right: 3vw;
+					bottom: 50px;
+				}
+			}
+
 			.gap {
 				display: none;
 			}

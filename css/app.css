@@ -317,12 +317,9 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    position: relative;
-    right: 3vw;
-    bottom: 50px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 90%;
     max-width: 460px;
   }
@@ -716,6 +713,14 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 40px;
+  }
+  main .projects .card-container .project-info-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    right: 3vw;
+    bottom: 50px;
   }
   main .projects .gap {
     display: none;
