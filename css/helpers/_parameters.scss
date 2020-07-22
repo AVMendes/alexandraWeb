@@ -6,6 +6,11 @@ $short: 560px;
 
 /*------------------FONTS-------------------*/
 @font-face {
+	font-family: bilbao-light;
+	src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Normal.ttf);
+}
+
+@font-face {
 	font-family: bilbao;
 	src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Regular.ttf);
 }
@@ -13,11 +18,6 @@ $short: 560px;
 @font-face {
 	font-family: bilbao-button;
 	src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-SemiBolditalic.ttf);
-}
-
-@font-face {
-	font-family: bilbao-bold;
-	src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Medium.ttf);
 }
 
 @font-face {
