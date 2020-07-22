@@ -16,6 +16,11 @@
 }
 
 @font-face {
+  font-family: bilbao-bold;
+  src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Bilbao-Normal.ttf);
+}
+
+@font-face {
   font-family: silkscreen;
   src: url(https://avmendes.github.io/alexandraWeb/assets/fonts/Silkscreen.ttf);
 }
@@ -124,6 +129,7 @@ header {
 a {
   text-decoration: none;
   color: #121212;
+  font-family: bilbao-bold;
 }
 
 /*------------------------------------------*/
@@ -757,6 +763,9 @@ a {
     width: 100%;
     max-width: none;
   }
+  .projects main .project-link {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 850px) {
@@ -764,6 +773,9 @@ a {
     position: relative;
     bottom: 35px;
     right: 0px;
+  }
+  .projects main .project-link {
+    margin-top: 50px;
   }
 }
 
