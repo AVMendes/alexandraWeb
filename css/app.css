@@ -52,16 +52,16 @@
   }
   /*MENU AND PAGE SUBTITLE*/
   h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   /*NAME*/
   h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
   }
   /*PROJECT NAME*/
   h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   /*PROJECT DESCRIPTION*/
   h4 {
@@ -70,10 +70,10 @@
   }
   p,
   a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .made-by {
-    font-size: 16px;
+    font-size: 14px;
   }
   .credit {
     font-size: 12px;
@@ -835,7 +835,6 @@ a {
     margin: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 16px;
     text-align: center;
   }
 }
