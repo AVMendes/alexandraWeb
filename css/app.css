@@ -6,13 +6,13 @@
 /*------------------------------------------*/
 /*------------------FONTS-------------------*/
 @font-face {
-  font-family: bilbao-light;
+  font-family: bilbao;
   src: url(https://alexandramendes.com/assets/fonts/Bilbao-Normal.ttf);
   src: url(https://alexandramendes.com/assets/fonts/Bilbao-Normal.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: bilbao;
+  font-family: bilbao-bold;
   src: url(https://alexandramendes.com/assets/fonts/Bilbao-Regular.ttf);
   src: url(https://alexandramendes.com/assets/fonts/Bilbao-Regular.ttf) format("truetype");
 }
@@ -108,6 +108,7 @@ header {
 a {
   text-decoration: none;
   color: #121212;
+  font-family: bilbao-bold;
 }
 
 /*------------------------------------------*/
@@ -397,8 +398,10 @@ a {
     width: 100%;
     height: auto;
   }
-  footer .footer-info .credit {
-    border-bottom: 4px #121212;
+  footer .footer-info .credit,
+  footer .footer-info a {
+    font-family: bilbao;
+    font-size: 14px;
   }
 }
 
@@ -773,6 +776,9 @@ a {
     position: relative;
     bottom: 35px;
     right: 0px;
+  }
+  .projects main .card-container .project-info-link .project-info {
+    width: 100%;
   }
   .projects main .project-link {
     margin-top: 50px;
