@@ -726,6 +726,7 @@ a {
             justify-content: flex-end;
     position: relative;
     bottom: 50px;
+    right: 3vw;
   }
   main .projects .gap {
     display: none;
@@ -735,6 +736,9 @@ a {
 @media only screen and (min-width: 850px) {
   main .projects {
     margin-top: 50px;
+  }
+  main .projects .card-container .project-info-link {
+    right: 0;
   }
   main .projects .gap {
     display: -webkit-box;
@@ -749,7 +753,7 @@ a {
 /*------------------------------------------*/
 /*----------------PROJECTS------------------*/
 @media only screen and (min-width: 200px) {
-  main .card-container.project-page .project-info-link {
+  main .project-card .project-info-link {
     width: 100%;
     max-width: none;
   }

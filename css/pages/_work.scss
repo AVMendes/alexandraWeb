@@ -14,6 +14,7 @@
 					justify-content: flex-end;
 					position: relative;
 					bottom: 50px;
+					right: 3vw;
 				}
 			}
 
@@ -28,6 +29,12 @@
 	main {
 		.projects {
 			margin-top: 50px;
+
+			.card-container {
+				.project-info-link {
+					right: 0;
+				}
+			}
 
 			.gap {
 				display: flex;
