@@ -12,6 +12,16 @@
 			.project-link {
 				margin-top: 30px;
 			}
+
+			.project-banner {
+				display: flex;
+				width: 100%;
+				height: 180px;
+
+				img {
+					object-fit: cover;
+				}
+			}
 		}
 	}
 }
