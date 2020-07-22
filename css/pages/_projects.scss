@@ -29,6 +29,7 @@
 				display: flex;
 				flex-wrap: wrap;
 				width: 100%;
+				margin-top: 40px;
 			}
 		}
 	}
@@ -51,9 +52,10 @@
 			.project-description {
 				flex-wrap: nowrap;
 				justify-content: space-between;
+				margin-top: 60px;
 
 				.project-synopsis {
-					width: 60%;
+					width: 50%;
 				}
 
 				.project-involvement {

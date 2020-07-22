@@ -789,6 +789,7 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
+    margin-top: 40px;
   }
 }
 
@@ -807,9 +808,10 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-top: 60px;
   }
   .projects main .project-description .project-synopsis {
-    width: 60%;
+    width: 50%;
   }
   .projects main .project-description .project-involvement {
     width: 30%;
