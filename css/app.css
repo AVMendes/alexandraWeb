@@ -469,6 +469,9 @@ a {
     width: auto;
     height: auto;
   }
+  .mobile-header .name h2 {
+    text-align: center;
+  }
   .mobile-header .menu-placeholder {
     width: 20px;
     height: 20px;
@@ -593,6 +596,9 @@ a {
   .web-menu .name {
     width: 120px;
     height: auto;
+  }
+  .web-menu .name h2 {
+    text-align: center;
   }
   .web-menu .pages a {
     margin-top: 50px;
