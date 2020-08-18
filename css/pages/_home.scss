@@ -1,0 +1,45 @@
+/*------------------HOME--------------------*/
+@media only screen and (min-width: $mobile) {
+	.start {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+
+		.mobile-bg {
+			width: auto;
+			height: 100%;
+			object-fit: cover;
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+		}
+
+		.web-bg {
+			display: none;
+		}
+
+		.logo-home {
+			width: 75px;
+			height: auto;
+			align-self: center;
+		}
+	}
+}
+
+@media only screen and (min-width: $tablet) {
+	.start {
+		.mobile-bg {
+			display: none;
+		}
+
+		.web-bg {
+			display: flex;
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+		}
+	}
+}
+/*------------------------------------------*/
