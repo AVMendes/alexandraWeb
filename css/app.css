@@ -64,31 +64,31 @@
   }
   /*MENU AND PAGE SUBTITLE*/
   h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
   /*NAME*/
   h2 {
     font-family: mangueira-bold;
-    font-size: 18px;
+    font-size: 20px;
   }
   /*PROJECT NAME*/
   h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   /*PROJECT DESCRIPTION*/
   h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
   p,
   a {
-    font-size: 14px;
+    font-size: 16px;
   }
   .made-by {
-    font-size: 14px;
+    font-size: 16px;
   }
   .credit {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -413,7 +413,7 @@ a {
   footer .footer-info .credit,
   footer .footer-info a {
     font-family: bilbao;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
