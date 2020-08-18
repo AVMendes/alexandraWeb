@@ -75,7 +75,15 @@
 		font-weight: 700;
 	}
 
-	p,
+	// p,
+	// a {
+	// 	font-size: $fSmall;
+	// }
+
+	p {
+		font-size: $fVerySmall;
+	}
+
 	a {
 		font-size: $fSmall;
 	}
