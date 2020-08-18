@@ -775,6 +775,7 @@ a {
     width: 100%;
     height: 200px;
     margin-top: 20px;
+    overflow: hidden;
   }
   .projects main .project-banner img {
     width: 100%;
