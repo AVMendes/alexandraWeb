@@ -29,6 +29,18 @@
   src: url(https://alexandramendes.com/assets/fonts/Silkscreen.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: mangueira;
+  src: url(https://alexandramendes.com/assets/fonts/Mangueira-Regular.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Mangueira-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: mangueira-bold;
+  src: url(https://alexandramendes.com/assets/fonts/Mangueira-SemiBold.ttf);
+  src: url(https://alexandramendes.com/assets/fonts/Mangueira-SemiBold.ttf) format("truetype");
+}
+
 /*------------------------------------------*/
 /*--------------MAIN COLORS-----------------*/
 /*------------------------------------------*/
@@ -47,7 +59,7 @@
   a,
   .made-by,
   .credit {
-    font-family: bilbao;
+    font-family: mangueira;
     font-weight: 600;
   }
   /*MENU AND PAGE SUBTITLE*/
@@ -56,7 +68,7 @@
   }
   /*NAME*/
   h2 {
-    font-family: bilbao-bold;
+    font-family: mangueira-bold;
     font-size: 18px;
   }
   /*PROJECT NAME*/
@@ -100,7 +112,7 @@ header {
 }
 
 .text-link {
-  font-family: bilbao-bold;
+  font-family: mangueira-bold;
 }
 
 /*------------------------------------------*/
@@ -108,7 +120,7 @@ header {
 a {
   text-decoration: none;
   color: #121212;
-  font-family: bilbao-bold;
+  font-family: mangueira-bold;
 }
 
 /*------------------------------------------*/

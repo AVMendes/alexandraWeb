@@ -12,7 +12,8 @@
 	a,
 	.made-by,
 	.credit {
-		font-family: bilbao;
+		// font-family: bilbao;
+		font-family: mangueira;
 		font-weight: 600;
 	}
 
@@ -58,7 +59,8 @@
 
 	/*NAME*/
 	h2 {
-		font-family: bilbao-bold;
+		// font-family: bilbao-bold;
+		font-family: mangueira-bold;
 		font-size: $fLarge;
 	}
 
@@ -141,7 +143,8 @@ header {
 
 .text-link {
 	// border-bottom: solid $cBlack 1.5px;
-	font-family: bilbao-bold;
+	// font-family: bilbao-bold;
+	font-family: mangueira-bold;
 }
 /*------------------------------------------*/
 
@@ -149,6 +152,7 @@ header {
 a {
 	text-decoration: none;
 	color: $cBlack;
-	font-family: bilbao-bold;
+	// font-family: bilbao-bold;
+	font-family: mangueira-bold;
 }
 /*------------------------------------------*/
