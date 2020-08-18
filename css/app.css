@@ -780,6 +780,14 @@ a {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  .projects main .project-banner img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
   .projects main .project-description {
     display: -webkit-box;

@@ -22,6 +22,11 @@
 				img {
 					width: 100%;
 					object-fit: cover;
+					transition: transform 0.5s ease;
+				}
+
+				img:hover {
+					transform: scale(1.2);
 				}
 			}
 
