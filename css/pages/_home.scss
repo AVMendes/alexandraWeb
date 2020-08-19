@@ -8,7 +8,7 @@
 		justify-content: center;
 
 		.mobile-bg {
-			width: auto;
+			width: 100vw;
 			height: 100vh;
 			object-fit: cover;
 			filter: blur(6px);
@@ -21,7 +21,8 @@
 		}
 
 		.logo-home {
-			width: 75px;
+			position: absolute;
+			width: 200px;
 			height: auto;
 			align-self: center;
 		}
