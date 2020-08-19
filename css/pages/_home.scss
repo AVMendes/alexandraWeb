@@ -5,13 +5,15 @@
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
+		justify-content: center;
 
 		.mobile-bg {
 			width: auto;
-			height: 100%;
+			height: 100vh;
 			object-fit: cover;
-			filter: blur(8px);
-			-webkit-filter: blur(8px);
+			filter: blur(6px);
+			-webkit-filter: blur(6px);
+			transform: scale(1.1);
 		}
 
 		.web-bg {
@@ -39,6 +41,7 @@
 			object-fit: cover;
 			filter: blur(8px);
 			-webkit-filter: blur(8px);
+			transform: scale(1.1);
 		}
 	}
 }
