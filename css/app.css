@@ -237,7 +237,8 @@ a {
 
 .hvr-hang:hover,
 .hvr-hang:focus,
-.hvr-hang:active {
+.hvr-hang:active,
+.hvr-hang.logo-home {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
   -webkit-animation-duration: 0.3s, 1.5s;
