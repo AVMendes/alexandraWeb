@@ -677,16 +677,21 @@ a {
   .about main .page-subtitle {
     width: 50% !important;
     text-align: start !important;
-    margin: 0px 10px 0px 0px !important;
+    margin: 20px 0px 0px 0px !important;
   }
   .about main .about-me {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   .about main .cronology {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
     border-left: 5px solid;
     border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
@@ -695,15 +700,15 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .about main .cronology .item p {
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
   }
   .about main .cronology .item .year {
-    width: auto;
+    width: 30px;
     height: 100%;
   }
 }

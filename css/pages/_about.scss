@@ -21,31 +21,34 @@
 			.page-subtitle {
 				width: 50% !important;
 				text-align: start !important;
-				margin: 0px 10px 0px 0px !important;
+				margin: 20px 0px 0px 0px !important;
 			}
 
 			.about-me {
 				width: 100%;
-				margin-top: 10px;
+				margin-top: 50px;
 			}
 
 			.cronology {
 				display: flex;
+				flex-direction: column;
+				margin-top: 50px;
+
 				border-left: $bLargeMobile solid;
 				border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
 				border-image-slice: 1;
 
 				.item {
 					display: flex;
-					flex-wrap: wrap;
+					flex-wrap: nowrap;
 
 					p {
 						margin: 0px;
-						margin-left: 5px;
+						margin-left: 15px;
 					}
 
 					.year {
-						width: auto;
+						width: 30px;
 						height: 100%;
 					}
 				}
