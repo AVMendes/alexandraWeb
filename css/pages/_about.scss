@@ -96,57 +96,6 @@
 			}
 
 			footer {
-				width: 100%;
-				height: 125px;
-
-				display: flex;
-				flex-direction: column;
-
-				.social {
-					width: 140px;
-					margin: auto;
-					margin-bottom: 20px;
-
-					display: flex;
-					justify-content: space-between;
-
-					img {
-						width: 25px;
-						height: 25px;
-						cursor: pointer;
-					}
-
-					.alert {
-						position: absolute;
-						bottom: 150px;
-						right: 3vw;
-						opacity: 0;
-						transition: 0.2s ease-in;
-
-						h3 {
-							width: 100px;
-							height: 30px;
-							padding: 10px;
-							padding-top: 10px;
-
-							font-size: 15px;
-
-							background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
-							background-size: cover;
-						}
-					}
-				}
-
-				.footer-info {
-					width: 100%;
-					height: auto;
-
-					.credit,
-					a {
-						font-family: bilbao;
-						font-size: $fSmall;
-					}
-				}
 			}
 		}
 	}
