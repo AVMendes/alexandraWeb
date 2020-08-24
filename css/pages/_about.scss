@@ -19,7 +19,7 @@
 			}
 
 			.page-subtitle {
-				width: 50% !important;
+				width: 80% !important;
 				text-align: start !important;
 				margin: 20px 0px 0px 0px !important;
 			}
@@ -33,6 +33,7 @@
 				display: flex;
 				flex-direction: column;
 				margin-top: 50px;
+				margin-bottom: 30px;
 
 				border-left: $bLargeMobile solid;
 				border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
@@ -41,6 +42,7 @@
 				.item {
 					display: flex;
 					flex-wrap: nowrap;
+					margin-bottom: 30px;
 
 					p {
 						margin: 0px;
@@ -50,7 +52,12 @@
 					.year {
 						width: 30px;
 						height: 100%;
+						text-decoration: underline;
 					}
+				}
+
+				.last {
+					margin-bottom: 0px;
 				}
 			}
 		}
