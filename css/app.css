@@ -719,6 +719,26 @@ a {
   }
 }
 
+@media only screen and (min-width: 850px) {
+  .portrait-web {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  .about main .portrait-mobile {
+    display: none;
+  }
+}
+
 /*------------------------------------------*/
 /*-----------------CONTACT------------------*/
 @media only screen and (min-width: 200px) {
