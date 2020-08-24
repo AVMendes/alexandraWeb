@@ -1,63 +1,68 @@
 /*-----------------ABOUT--------------------*/
 @media only screen and (min-width: $mobile) {
-	.portrait-web {
-		display: none;
-	}
-
 	.about {
-		main {
-			.portrait-mobile {
-				width: 100%;
-				height: auto;
-				object-fit: cover;
-				transition: transform 0.5s ease;
+		display: flex;
+		flex-direction: column;
 
-				img {
+		.portrait-web {
+			display: none;
+		}
+
+		.container {
+			main {
+				.portrait-mobile {
 					width: 100%;
 					height: auto;
+					object-fit: cover;
+					transition: transform 0.5s ease;
+
+					img {
+						width: 100%;
+						height: auto;
+					}
 				}
-			}
 
-			.page-subtitle {
-				width: 80% !important;
-				text-align: start !important;
-				margin: 20px 0px 0px 0px !important;
-			}
+				.page-subtitle {
+					width: 80% !important;
+					text-align: start !important;
+					margin: 20px 0px 0px 0px !important;
+				}
 
-			.about-me {
-				width: 100%;
-				margin-top: 50px;
-			}
+				.about-me {
+					width: 100%;
+					margin-top: 50px;
+				}
 
-			.cronology {
-				display: flex;
-				flex-direction: column;
-				margin-top: 50px;
-				margin-bottom: 30px;
-
-				border-left: $bLargeMobile solid;
-				border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
-				border-image-slice: 1;
-
-				.item {
+				.cronology {
 					display: flex;
-					flex-wrap: nowrap;
+					flex-direction: column;
+					margin-top: 50px;
 					margin-bottom: 30px;
 
-					p {
-						margin: 0px;
-						margin-left: 15px;
+					border-left: $bLargeMobile solid;
+					border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
+					border-image-slice: 1;
+
+					.item {
+						display: flex;
+						flex-wrap: nowrap;
+						margin-bottom: 30px;
+
+						p {
+							margin: 0px;
+							margin-left: 15px;
+						}
+
+						.year {
+							width: 30px;
+							height: 100%;
+							text-decoration: underline;
+						}
 					}
 
-					.year {
-						width: 30px;
-						height: 100%;
-						text-decoration: underline;
+					.last {
+						margin-bottom: 0px;
 					}
-				}
-
-				.last {
-					margin-bottom: 0px;
 				}
 			}
 		}
@@ -65,23 +70,28 @@
 }
 
 @media only screen and (min-width: $tablet) {
-	.portrait-web {
-		display: flex;
-		width: 40%;
-		height: 100vh;
-		margin-left: 175px;
-
-		img {
-			width: 100%;
-			object-fit: cover;
-			transition: transform 0.5s ease;
-		}
-	}
-
 	.about {
-		main {
-			.portrait-mobile {
-				display: none;
+		display: flex;
+		flex-direction: row;
+
+		.portrait-web {
+			display: flex;
+			width: 40%;
+			height: 100vh;
+			margin-left: 175px;
+
+			img {
+				width: 100%;
+				object-fit: cover;
+				transition: transform 0.5s ease;
+			}
+		}
+
+		.container {
+			main {
+				.portrait-mobile {
+					display: none;
+				}
 			}
 		}
 	}

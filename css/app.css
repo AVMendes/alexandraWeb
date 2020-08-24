@@ -657,10 +657,19 @@ a {
 /*------------------------------------------*/
 /*-----------------ABOUT--------------------*/
 @media only screen and (min-width: 200px) {
-  .portrait-web {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .portrait-web {
     display: none;
   }
-  .about main .portrait-mobile {
+  .about .container main .portrait-mobile {
     width: 100%;
     height: auto;
     -o-object-fit: cover;
@@ -670,20 +679,20 @@ a {
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
-  .about main .portrait-mobile img {
+  .about .container main .portrait-mobile img {
     width: 100%;
     height: auto;
   }
-  .about main .page-subtitle {
+  .about .container main .page-subtitle {
     width: 80% !important;
     text-align: start !important;
     margin: 20px 0px 0px 0px !important;
   }
-  .about main .about-me {
+  .about .container main .about-me {
     width: 100%;
     margin-top: 50px;
   }
-  .about main .cronology {
+  .about .container main .cronology {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -697,7 +706,7 @@ a {
     border-image-source: linear-gradient(180deg, #9e18ae, #fd7b0c);
     border-image-slice: 1;
   }
-  .about main .cronology .item {
+  .about .container main .cronology .item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -705,22 +714,31 @@ a {
         flex-wrap: nowrap;
     margin-bottom: 30px;
   }
-  .about main .cronology .item p {
+  .about .container main .cronology .item p {
     margin: 0px;
     margin-left: 15px;
   }
-  .about main .cronology .item .year {
+  .about .container main .cronology .item .year {
     width: 30px;
     height: 100%;
     text-decoration: underline;
   }
-  .about main .cronology .last {
+  .about .container main .cronology .last {
     margin-bottom: 0px;
   }
 }
 
 @media only screen and (min-width: 850px) {
-  .portrait-web {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about .portrait-web {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -728,7 +746,7 @@ a {
     height: 100vh;
     margin-left: 175px;
   }
-  .portrait-web img {
+  .about .portrait-web img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -737,7 +755,7 @@ a {
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
-  .about main .portrait-mobile {
+  .about .container main .portrait-mobile {
     display: none;
   }
 }
