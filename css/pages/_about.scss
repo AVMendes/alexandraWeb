@@ -1,0 +1,52 @@
+/*-----------------ABOUT--------------------*/
+@media only screen and (min-width: $mobile) {
+	.portrait-web {
+		display: none;
+	}
+
+	.about {
+		main {
+			.portrait-mobile {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+				transition: transform 0.5s ease;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.page-subtitle {
+				width: 50%;
+				text-align: start;
+			}
+
+			.about-me {
+				width: 100%;
+			}
+
+			.cronology {
+				display: flex;
+				border-left: $bLargeMobile solid;
+				border-image-source: linear-gradient(180deg, $cPurple, $cOrange);
+				border-image-slice: 1;
+
+				.item {
+					display: flex;
+					flex-wrap: wrap;
+
+					.year {
+						width: auto;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: $tablet) {
+}
+/*------------------------------------------*/
