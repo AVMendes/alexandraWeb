@@ -675,11 +675,13 @@ a {
     height: auto;
   }
   .about main .page-subtitle {
-    width: 50%;
-    text-align: start;
+    width: 50% !important;
+    text-align: start !important;
+    margin: 0px 10px 0px 0px !important;
   }
   .about main .about-me {
     width: 100%;
+    margin-top: 10px;
   }
   .about main .cronology {
     display: -webkit-box;
@@ -695,6 +697,10 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .about main .cronology .item p {
+    margin: 0px;
+    margin-left: 5px;
   }
   .about main .cronology .item .year {
     width: auto;

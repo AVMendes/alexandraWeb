@@ -19,12 +19,14 @@
 			}
 
 			.page-subtitle {
-				width: 50%;
-				text-align: start;
+				width: 50% !important;
+				text-align: start !important;
+				margin: 0px 10px 0px 0px !important;
 			}
 
 			.about-me {
 				width: 100%;
+				margin-top: 10px;
 			}
 
 			.cronology {
@@ -36,6 +38,11 @@
 				.item {
 					display: flex;
 					flex-wrap: wrap;
+
+					p {
+						margin: 0px;
+						margin-left: 5px;
+					}
 
 					.year {
 						width: auto;
