@@ -724,9 +724,12 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 30%;
+    width: 40%;
     height: 100vh;
     margin-left: 175px;
+  }
+  .portrait-web img {
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -webkit-transition: -webkit-transform 0.5s ease;
