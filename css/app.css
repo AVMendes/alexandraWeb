@@ -666,6 +666,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .about .empty,
   .about .portrait-web {
     display: none;
   }
@@ -737,7 +738,13 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-left: 175px;
+  }
+  .about .empty {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 175px;
+    height: 100%;
   }
   .about .portrait-web {
     position: fixed;
