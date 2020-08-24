@@ -757,6 +757,9 @@ a {
   .about .container {
     margin-left: 0px;
   }
+  .about .container main {
+    padding-bottom: 0px;
+  }
   .about .container main .portrait-mobile {
     display: none;
   }
