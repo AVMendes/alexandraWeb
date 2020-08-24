@@ -754,10 +754,13 @@ a {
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
+  .about .container {
+    margin-left: 0px;
+  }
   .about .container main .portrait-mobile {
     display: none;
   }
-  footer {
+  .about .container footer {
     width: 100%;
     height: 125px;
     display: -webkit-box;
@@ -768,7 +771,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer .social {
+  .about .container footer .social {
     width: 140px;
     margin: auto;
     margin-bottom: 20px;
@@ -779,12 +782,12 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  footer .social img {
+  .about .container footer .social img {
     width: 25px;
     height: 25px;
     cursor: pointer;
   }
-  footer .social .alert {
+  .about .container footer .social .alert {
     position: absolute;
     bottom: 150px;
     right: 3vw;
@@ -792,7 +795,7 @@ a {
     -webkit-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
   }
-  footer .social .alert h3 {
+  .about .container footer .social .alert h3 {
     width: 100px;
     height: 30px;
     padding: 10px;
@@ -801,12 +804,12 @@ a {
     background-image: url(https://avmendes.github.io/alexandraWeb/assets/images/bubble_s.png);
     background-size: cover;
   }
-  footer .footer-info {
+  .about .container footer .footer-info {
     width: 100%;
     height: auto;
   }
-  footer .footer-info .credit,
-  footer .footer-info a {
+  .about .container footer .footer-info .credit,
+  .about .container footer .footer-info a {
     font-family: bilbao;
     font-size: 16px;
   }
