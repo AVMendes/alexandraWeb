@@ -73,11 +73,13 @@
 	.about {
 		display: flex;
 		flex-direction: row;
+		margin-left: 175px;
 
 		.portrait-web {
+			position: fixed;
 			display: flex;
+			width: 40%;
 			height: 100vh;
-			margin-left: 175px;
 
 			img {
 				width: 100%;
@@ -87,7 +89,7 @@
 		}
 
 		.container {
-			margin-left: 0px;
+			margin-left: 40%;
 
 			main {
 				padding-bottom: 0px;
