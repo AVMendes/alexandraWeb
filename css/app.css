@@ -739,10 +739,12 @@ a {
             flex-direction: row;
   }
   .about .portrait-web {
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100vh;
+    width: 40%;
+    height: 100%;
     margin-left: 175px;
   }
   .about .portrait-web img {
@@ -755,7 +757,7 @@ a {
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
   .about .container {
-    margin-left: 0px;
+    margin-left: 55%;
   }
   .about .container main {
     padding-bottom: 0px;
