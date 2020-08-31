@@ -759,11 +759,11 @@ a {
   .about .container {
     margin-left: 55%;
   }
-  .about .container main {
-    padding-bottom: 0px;
-  }
   .about .container main .portrait-mobile {
     display: none;
+  }
+  .about .container main .page-subtitle {
+    margin: 0px 0px 0px 0px !important;
   }
   .about .container footer {
     width: 100%;
