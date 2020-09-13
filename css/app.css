@@ -716,7 +716,7 @@ a {
   }
   .about .container main .cronology .item p {
     margin: 0px;
-    margin-left: 15px;
+    margin-left: 30px;
   }
   .about .container main .cronology .item .year {
     width: 30px;
@@ -748,6 +748,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 15px;
   }
   .about .container main .skills-block .text-block h3 {
     width: 100%;
