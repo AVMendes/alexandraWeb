@@ -79,13 +79,27 @@
 						}
 					}
 
-					ul {
-						padding: 0px;
+					.text-block {
+						display: flex;
+						flex-direction: column;
 
-						li {
-							list-style-type: none;
-							font-family: mangueira;
-							font-weight: 600;
+						h3 {
+							width: 100%;
+							height: auto;
+							margin: 0px;
+						}
+
+						ul {
+							width: 100%;
+							height: auto;
+							padding: 0px;
+							margin: 0px;
+
+							li {
+								list-style-type: none;
+								font-family: mangueira;
+								font-weight: 600;
+							}
 						}
 					}
 				}
