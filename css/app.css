@@ -920,7 +920,7 @@ a {
 
 @media only screen and (min-width: 850px) {
   .work main .projects {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .work main .projects .card-container .project-info-link {
     right: 15px;
