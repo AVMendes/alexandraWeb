@@ -64,6 +64,31 @@
 						margin-bottom: 0px;
 					}
 				}
+
+				.skills-block {
+					display: flex;
+					margin-top: 20px;
+
+					.arrow {
+						width: 10px;
+						height: 100%;
+
+						svg {
+							width: 100%;
+							height: auto;
+						}
+					}
+
+					ul {
+						padding: 0px;
+
+						li {
+							list-style-type: none;
+							font-family: mangueira;
+							font-weight: 600;
+						}
+					}
+				}
 			}
 		}
 	}

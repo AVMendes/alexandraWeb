@@ -726,6 +726,28 @@ a {
   .about .container main .cronology .last {
     margin-bottom: 0px;
   }
+  .about .container main .skills-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  .about .container main .skills-block .arrow {
+    width: 10px;
+    height: 100%;
+  }
+  .about .container main .skills-block .arrow svg {
+    width: 100%;
+    height: auto;
+  }
+  .about .container main .skills-block ul {
+    padding: 0px;
+  }
+  .about .container main .skills-block ul li {
+    list-style-type: none;
+    font-family: mangueira;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (min-width: 850px) {
