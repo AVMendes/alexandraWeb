@@ -735,6 +735,7 @@ a {
   .about .container main .skills-block .arrow {
     width: 20px;
     height: 100%;
+    margin-left: -5px;
   }
   .about .container main .skills-block .arrow svg {
     width: 100%;
@@ -748,7 +749,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 15px;
+    margin-left: 20px;
   }
   .about .container main .skills-block .text-block h3 {
     width: 100%;
@@ -758,12 +759,13 @@ a {
   .about .container main .skills-block .text-block ul {
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding-left: 2px;
   }
   .about .container main .skills-block .text-block ul li {
     list-style-type: none;
     font-family: mangueira;
     font-weight: 600;
+    font-size: 14px;
   }
 }
 
