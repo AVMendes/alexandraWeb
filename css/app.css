@@ -294,6 +294,7 @@ a {
     width: 100%;
   }
   .card-container a:not(.project-info-link) {
+    height: 180px;
     border-radius: 15px;
     overflow: hidden;
   }
@@ -350,6 +351,9 @@ a {
 @media only screen and (min-width: 850px) {
   .card-container {
     width: 325px;
+  }
+  .card-container a {
+    height: 200px;
   }
   .card-container a .card-img {
     width: 325px;

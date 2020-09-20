@@ -7,6 +7,7 @@
 		width: 100%;
 
 		a:not(.project-info-link) {
+			height: 180px;
 			border-radius: 15px;
 			overflow: hidden;
 
@@ -58,6 +59,8 @@
 		width: 325px;
 
 		a {
+			height: 200px;
+
 			.card-img {
 				width: 325px;
 				height: 200px;
