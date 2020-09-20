@@ -352,9 +352,6 @@ a {
   .card-container {
     width: 325px;
   }
-  .card-container a {
-    height: 200px;
-  }
   .card-container a .card-img {
     width: 325px;
     height: 200px;
