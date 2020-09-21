@@ -899,7 +899,7 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .work main .projects .card-container {
     -webkit-box-pack: end;
