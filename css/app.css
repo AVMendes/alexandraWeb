@@ -116,6 +116,7 @@ header {
 .text-link {
   font-family: mangueira-bold;
   font-size: 16px;
+  word-break: break-word;
 }
 
 /*------------------------------------------*/
