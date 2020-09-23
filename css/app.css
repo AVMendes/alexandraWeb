@@ -843,6 +843,7 @@ a {
   main .contact {
     width: 100%;
     height: auto;
+    margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -854,7 +855,7 @@ a {
   main .contact .line {
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -880,6 +881,9 @@ a {
 }
 
 @media only screen and (min-width: 850px) {
+  main .contact {
+    margin-top: 65px;
+  }
   main .contact .line a img {
     width: 45px;
     height: 45px;
