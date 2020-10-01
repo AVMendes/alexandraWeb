@@ -1013,6 +1013,9 @@ a {
   .projects main .project-description .project-synopsis {
     width: 50%;
   }
+  .projects main .project-description .project-synopsis a {
+    font-size: 14px;
+  }
   .projects main .project-description .project-involvement {
     width: 30%;
   }
