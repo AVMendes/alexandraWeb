@@ -454,6 +454,7 @@ a {
   footer .social {
     width: 70%;
     height: 100%;
+    margin-top: 10px;
     padding-left: 20vw;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
