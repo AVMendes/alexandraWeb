@@ -809,7 +809,7 @@ a {
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
   .about .container {
-    padding: 75px 80px 50px 75px;
+    padding: 75px 80px 30px 75px;
     margin-left: 55%;
   }
   .about .container main .portrait-mobile {
@@ -818,9 +818,17 @@ a {
   .about .container main .page-subtitle {
     margin: 0px 0px 0px 0px !important;
   }
+  .about .container .alert {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .about .container .alert h3 {
+    margin-left: 70%;
+  }
   .about .container footer {
     width: 100%;
-    height: 150px;
+    height: auto;
     -ms-flex-direction: column;
         flex-direction: column;
     -webkit-box-orient: vertical;
@@ -1123,11 +1131,11 @@ a {
 @media only screen and (min-width: 850px) {
   .container {
     margin-left: 175px;
-    padding: 75px 80px 50px 75px;
+    padding: 75px 80px 30px 75px;
   }
   .container main {
     margin-top: 0px;
-    min-height: calc(100vh - 255px);
+    min-height: calc(100vh - 280px);
   }
   .container main .page-subtitle {
     width: 60%;
