@@ -1,5 +1,26 @@
 /*------------------FOOTER------------------*/
 @media only screen and (min-width: $mobile) {
+	.alert {
+		opacity: 0;
+		transition: 0.2s ease-in;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+
+		h3 {
+			width: 100px;
+			height: 30px;
+			margin-right: -20px;
+			padding: 10px;
+			padding-top: 10px;
+
+			font-size: 15px;
+
+			background-image: url(https://alexandramendes.com/assets/images/bubble_s.png);
+			background-size: cover;
+		}
+	}
+
 	footer {
 		width: 100%;
 		height: 180px;
@@ -20,26 +41,6 @@
 				height: 25px;
 				cursor: pointer;
 			}
-
-			.alert {
-				position: absolute;
-				bottom: 150px;
-				right: 3vw;
-				opacity: 0;
-				transition: 0.2s ease-in;
-
-				h3 {
-					width: 100px;
-					height: 30px;
-					padding: 10px;
-					padding-top: 10px;
-
-					font-size: 15px;
-
-					background-image: url(https://alexandramendes.com/assets/images/bubble_s.png);
-					background-size: cover;
-				}
-			}
 		}
 
 		.footer-info {
@@ -56,6 +57,14 @@
 }
 
 @media only screen and (min-width: $tablet) {
+	.alert {
+		bottom: 125px;
+
+		h3 {
+			margin-right: -70px;
+		}
+	}
+
 	footer {
 		height: 100px;
 		padding: 0px;
@@ -75,10 +84,6 @@
 			padding-left: 20vw;
 
 			order: 2;
-
-			.alert {
-				bottom: 125px;
-			}
 
 			img {
 				width: 35px;
