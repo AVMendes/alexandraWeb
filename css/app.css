@@ -970,6 +970,9 @@ a {
   }
   .projects main .project-link {
     margin-top: 30px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   .projects main .project-banner {
     display: -webkit-box;
