@@ -26,6 +26,21 @@ $(".mobile-header .menu").click(function() {
 		$(".mobile-menu").css("right", "-200px");
 	}
 });
+
+$(document).mouseup(function(e) 
+{
+    var container = $(".mobile-header .menu");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0 && container.hasClass("open")) {
+        burger.setDirection(-1);
+		burger.play();
+
+		container.removeClass("open");
+		container.addClass("closed");
+		$(".mobile-menu").css("right", "-200px");
+    }
+});
 /*------------------------------------------*/
 
 /*----------------DARK MODE-----------------*/
