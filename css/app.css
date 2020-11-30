@@ -1005,6 +1005,11 @@ a {
     width: 100%;
     margin-top: 40px;
   }
+  .projects main .project-close .hvr-forward {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 @media only screen and (min-width: 850px) {
