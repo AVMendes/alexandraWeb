@@ -695,6 +695,14 @@ a {
     width: 100%;
     height: auto;
   }
+  .about .container main .portrait-mobile .vertical {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about .container main .portrait-mobile .horizontal {
+    display: none;
+  }
   .about .container main .page-subtitle {
     width: 80% !important;
     text-align: start !important;
@@ -778,6 +786,17 @@ a {
     font-family: mangueira;
     font-weight: 600;
     font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (orientation: landscape) {
+  .about .container main .portrait-mobile .vertical {
+    display: none;
+  }
+  .about .container main .portrait-mobile .horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
