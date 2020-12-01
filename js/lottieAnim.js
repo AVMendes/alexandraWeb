@@ -9,22 +9,6 @@ var burger = bodymovin.loadAnimation({
 
 burger.setSpeed(2);
 
-$(document).mouseup(function(e) 
-{
-    var menuIcon = $(".mobile-header .menu");
-    var container = $(".mobile-menu");
-
-    // if the target of the click isn't the container nor a descendant of the container
-    if ((menuIcon.is(e.target) && menuIcon.hasClass("open")) || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))) {
-        burger.setDirection(-1);
-		burger.play();
-
-		menuIcon.removeClass("open");
-		menuIcon.addClass("closed");
-		container.css("right", "-200px");
-    }
-});
-
 $(".mobile-header .menu").click(function() {
 	if ($(this).hasClass("closed")) {
 		burger.setDirection(1);
@@ -41,6 +25,22 @@ $(".mobile-header .menu").click(function() {
 		$(this).addClass("closed");
 		$(".mobile-menu").css("right", "-200px");
 	}
+});
+
+$(document).mouseup(function(e) 
+{
+    var menuIcon = $(".mobile-header .menu");
+    var container = $(".mobile-menu");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if ((menuIcon.is(e.target) && menuIcon.hasClass("open")) || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))) {
+        burger.setDirection(-1);
+		burger.play();
+
+		menuIcon.removeClass("open");
+		menuIcon.addClass("closed");
+		container.css("right", "-200px");
+    }
 });
 /*------------------------------------------*/
 
