@@ -15,7 +15,7 @@ $(document).mouseup(function(e)
     var container = $(".mobile-menu");
 
     // if the target of the click isn't the container nor a descendant of the container
-    if (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open")) {
+    if ((menuIcon.is(e.target) && menuIcon.hasClass("open")) || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))) {
         burger.setDirection(-1);
 		burger.play();
 
