@@ -31,7 +31,8 @@ $(document).mouseup(function(e) {
     var menuIcon = $(".mobile-header .menu");
 	var container = $(".mobile-menu");
 	
-	console.log(e);s
+	console.log(e);
+	console.log(menuIcon.has(e.target).length);
 
 	// if the target of the click isn't the container nor a descendant of the container
 	// || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))
