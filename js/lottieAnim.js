@@ -33,12 +33,12 @@ $(document).mouseup(function(e) {
 	
 	console.log(e);
 	console.log(menuIcon.has(e.target).length);
-	console.log(boolean(menuIcon.hasClass("open")));
 
 	// if the target of the click isn't the container nor a descendant of the container
 	// || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))
 	// (menuIcon.is(e.target) && 
     if (menuIcon.has(e.target).length > 0 && menuIcon.hasClass("open")) {
+		console.log("Worked!");
         burger.setDirection(-1);
 		burger.play();
 
