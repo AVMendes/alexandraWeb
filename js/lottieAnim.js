@@ -33,6 +33,7 @@ $(document).mouseup(function(e) {
 	
 	console.log(e);
 	console.log(menuIcon.has(e.target).length);
+	console.log(container.has(e.target).length);
 
 	// if the target of the click isn't the container nor a descendant of the container
 	// || 
