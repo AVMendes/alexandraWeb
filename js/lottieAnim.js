@@ -18,29 +18,30 @@ $(".mobile-header .menu").click(function() {
 		$(this).addClass("open");
 		$(".mobile-menu").css("right", "0px");
 	} else {
-		burger.setDirection(-1);
-		burger.play();
+		// burger.setDirection(-1);
+		// burger.play();
 
-		$(this).removeClass("open");
-		$(this).addClass("closed");
-		$(".mobile-menu").css("right", "-200px");
+		// $(this).removeClass("open");
+		// $(this).addClass("closed");
+		// $(".mobile-menu").css("right", "-200px");
 	}
 });
 
-// $(document).mouseup(function(e) {
-//     var menuIcon = $(".mobile-header .menu");
-//     var container = $(".mobile-menu");
+$(document).mouseup(function(e) {
+    var menuIcon = $(".mobile-header .menu");
+    var container = $(".mobile-menu");
 
-//     // if the target of the click isn't the container nor a descendant of the container
-//     if ((menuIcon.is(e.target) && menuIcon.hasClass("open")) || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))) {
-//         burger.setDirection(-1);
-// 		burger.play();
+	// if the target of the click isn't the container nor a descendant of the container
+	// || (!container.is(e.target) && container.has(e.target).length === 0 && menuIcon.hasClass("open"))
+    if ((menuIcon.is(e.target) && menuIcon.hasClass("open")) ) {
+        burger.setDirection(-1);
+		burger.play();
 
-// 		menuIcon.removeClass("open");
-// 		menuIcon.addClass("closed");
-// 		container.css("right", "-200px");
-//     }
-// });
+		menuIcon.removeClass("open");
+		menuIcon.addClass("closed");
+		container.css("right", "-200px");
+    }
+});
 /*------------------------------------------*/
 
 /*----------------DARK MODE-----------------*/
