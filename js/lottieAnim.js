@@ -48,6 +48,7 @@ $(document).mouseup(function(e) {
 
 		menuIcon.removeClass("open");
 		menuIcon.addClass("closed");
+		menuIcon.addClass("teste");
 		container.css("right", "-200px");
     }
 });
