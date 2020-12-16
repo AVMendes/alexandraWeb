@@ -14,8 +14,8 @@ $(".mobile-header .menu").click(function() {
 		burger.setDirection(1);
 		burger.play();
 
-		$(this).removeClass("closed");
-		$(this).addClass("open");
+		// $(this).removeClass("closed");
+		// $(this).addClass("open");
 		$(".mobile-menu").css("right", "0px");
 	} 
 	
@@ -46,8 +46,8 @@ $(document).mouseup(function(e) {
         burger.setDirection(-1);
 		burger.play();
 
-		menuIcon.removeClass("open");
-		menuIcon.addClass("closed");
+		// menuIcon.removeClass("open");
+		// menuIcon.addClass("closed");
 		menuIcon.addClass("teste");
 		container.css("right", "-200px");
     }
