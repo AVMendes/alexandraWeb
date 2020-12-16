@@ -17,14 +17,16 @@ $(".mobile-header .menu").click(function() {
 		$(this).removeClass("closed");
 		$(this).addClass("open");
 		$(".mobile-menu").css("right", "0px");
-	} else {
-		burger.setDirection(-1);
-		burger.play();
+	} 
+	
+	// else {
+	// 	burger.setDirection(-1);
+	// 	burger.play();
 
-		$(this).removeClass("open");
-		$(this).addClass("closed");
-		$(".mobile-menu").css("right", "-200px");
-	}
+	// 	$(this).removeClass("open");
+	// 	$(this).addClass("closed");
+	// 	$(".mobile-menu").css("right", "-200px");
+	// }
 });
 
 $(document).mouseup(function(e) {
